@@ -1,0 +1,23 @@
+{
+  "name": "vitepress-docs-website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "mouyong <my24251325@gmail.com>",
+  "license": "Apache-2.0",
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:serve": "vitepress serve"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "postcss-import": "^14.1.0",
+    "postcss-nested": "^5.0.6",
+    "sass": "^1.53.0",
+    "tailwindcss": "^3.1.4",
+    "vitepress": "^1.0.0-alpha.4",
+    "vue": "^3.2.37"
+  },
+  "dependencies": {}
+}

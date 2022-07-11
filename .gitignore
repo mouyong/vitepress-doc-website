@@ -4,3 +4,4 @@ docs/
 .vite/
 *.lock
 *.log
+.htaccess

@@ -23,16 +23,18 @@ layout: page
   })
 </script>
 <style lang="scss">
-  .content {
-    @apply font-bold text-2xl;
+  .home {
+    .content {
+      @apply font-bold text-2xl;
 
-    a {
-      @apply text-blue-700;
+      a {
+        @apply text-blue-700;
+      }
     }
   }
 </style>
 
-<div class="container w-3/4 m-auto mt-6 flex flex-col justify-center">
+<div class="home container w-3/4 m-auto mt-6 flex flex-col justify-center">
   <p class="content">
     在这里你可以使用 <a href="https://vitepress.vuejs.org/guide/using-vue.html">Vue</a> & <a href="https://tailwindcss.com/docs/installation">tailwindcss</a> 自定义页面内容。
   </p>

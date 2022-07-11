@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as a,a as d}from"./app.48abcb6a.js";const m=JSON.parse('{"title":"\u5168\u5C40\u8BF7\u6C42\u5934","description":"","frontmatter":{},"headers":[],"relativePath":"api/header.md"}'),r={name:"api/header.md"},o=d("",2),n=[o];function _(c,h,i,s,p,l){return a(),e("div",null,n)}var u=t(r,[["render",_]]);export{m as __pageData,u as default};

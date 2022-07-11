@@ -1,1 +1,0 @@
-import{b as t,o as e,c as a,a as s}from"./app.7605ffb3.js";const n=s("",1),o=[n],p=JSON.parse('{"title":"","description":"","frontmatter":{"layout":"page"},"headers":[],"relativePath":"home.md"}'),_={name:"home.md"},u=Object.assign(_,{setup(i){return t(()=>{toggleNavbarOnPageChange()}),(r,c)=>(e(),a("div",null,o))}});export{p as __pageData,u as default};

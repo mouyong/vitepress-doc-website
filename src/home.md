@@ -28,4 +28,12 @@ layout: page
 
   <p class="content">在 <a href="https://vitepress.vuejs.org/" target="_blank">vitepress</a> 中使用 <a href="https://tailwindui.com/" target="_blank">tailwindui</a> 时，需要移除 html 中的空行。见 <a href="https://github.com/vuejs/vitepress/issues/939" target="_blank">Issue 939</a></p>
   <p class="content">自定义完成页面后，请在 <code>userConfig.ts</code> 中根据需要重新配置首页的导航栏链接</p>
+
+  <p>Alpine js demo: Please click the Expand button.</p>
+  <div x-data="{ open: false }">
+      <button x-on:click="open = !open">Expand</button>
+      <span x-show="open">
+        Content...
+      </span>
+  </div>
 </div>

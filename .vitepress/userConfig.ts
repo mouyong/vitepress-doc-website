@@ -5,6 +5,10 @@ export default {
   description: '项目描述',
   ignoreDeadLinks: true,
 
+  head: [
+    ['script', { src: '//unpkg.com/alpinejs', defer: true }],
+  ],
+
   markdown: {
     theme: 'material-palenight',
     lineNumbers: false

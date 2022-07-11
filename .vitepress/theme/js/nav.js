@@ -25,4 +25,10 @@ function toggleNavbarOnPageChange() {
   }
 }
 
-window.toggleNavbarOnPageChange = toggleNavbarOnPageChange
+if (typeof window !== 'undefined') {
+  window.toggleNavbarOnPageChange = toggleNavbarOnPageChange
+}
+
+if (typeof global !== 'undefined') {
+  global.toggleNavbarOnPageChange = toggleNavbarOnPageChange
+}

@@ -25,12 +25,14 @@ export default {
         items: [
           {
             text: '飞书',
-            items: [{ text: '目录索引', link: 'https://feishu.cn' }]
+            items: [
+              { text: 'xx - 目录索引', link: 'https://feishu.cn' },
+            ]
           },
           {
             text: 'Apifox',
             items: [
-              { text: '接口文档', link: 'https://www.apifox.cn/web' }
+              { text: '项目 - 接口文档', link: 'https://www.apifox.cn/web' },
             ]
           }
         ]
@@ -41,7 +43,9 @@ export default {
       '/guide/': [
         {
           text: '开发资料',
-          items: [{ text: '基础资料', link: '/guide/' }]
+          items: [
+            { text: '基础资料', link: '/guide/' },
+          ]
         }
       ],
       '/api/': [
@@ -51,7 +55,7 @@ export default {
             { text: '目录', link: '/api/' },
             { text: '全局请求头', link: '/api/header' },
             { text: '全局请求参数', link: '/api/request' },
-            { text: '全局接口响应', link: '/api/response' }
+            { text: '全局接口响应', link: '/api/response' },
           ]
         },
         {
@@ -59,12 +63,14 @@ export default {
           items: [
             { text: '新增用户', link: '/api/user/add' },
             { text: '获取用户列表', link: '/api/user/list' },
-            { text: '删除用户', link: '/api/user/delete' }
+            { text: '删除用户', link: '/api/user/delete' },
           ]
         },
         {
           text: '接口数据模型',
-          items: [{ text: '用户', link: '/api/models/user' }]
+          items: [
+            { text: '用户', link: '/api/models/user' },
+          ]
         }
       ],
       '/database/': [
@@ -72,12 +78,14 @@ export default {
           text: '概览',
           items: [
             { text: '目录', link: '/database/' },
-            { text: '用户', link: '/database/user/users' }
+            { text: '用户', link: '/database/user/users' },
           ]
         },
         {
           text: '字典数据',
-          items: [{ text: '民族', link: '/database/dictionary/nation' }]
+          items: [
+            { text: '民族', link: '/database/dictionary/nation' },
+          ]
         }
       ]
     },

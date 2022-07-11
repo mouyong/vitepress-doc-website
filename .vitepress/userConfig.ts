@@ -30,8 +30,8 @@ export default {
           {
             text: '飞书',
             items: [
-              { text: '团队协同文档', link: 'https://feishu.cn' },
-              { text: '项目研发流程', link: 'https://feishu.cn' },
+              { text: '团队协同文档', link: 'https://wv446p4j9c.feishu.cn/docs/doccnuDx1Cloij1MQg25I3Z9yUb' },
+              { text: '项目研发流程', link: 'https://wv446p4j9c.feishu.cn/docx/doxcn4BS4V1wo0h1TU14uRZ4icf' },
               { text: 'xx - 目录索引', link: 'https://feishu.cn' },
               { text: '【xxx 项目】需求及 Bug 管理 ', link: 'https://wv446p4j9c.feishu.cn/base/bascnpubydTzWJ5M5LJ2lkWSatS' },
             ]

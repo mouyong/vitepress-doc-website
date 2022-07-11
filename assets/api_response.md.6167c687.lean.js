@@ -1,1 +1,0 @@
-import{_ as s,c as a,o as n,a as o}from"./app.48abcb6a.js";const i=JSON.parse('{"title":"\u5168\u5C40\u63A5\u53E3\u54CD\u5E94","description":"","frontmatter":{},"headers":[],"relativePath":"api/response.md"}'),l={name:"api/response.md"},p=o("",2),e=[p];function t(c,r,D,F,y,C){return n(),a("div",null,e)}var _=s(l,[["render",t]]);export{i as __pageData,_ as default};

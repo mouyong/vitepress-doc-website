@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: VuePress
+  name: VitePress
   text: '' # 留空，或者文字内容不要太长
   tagline: Vite & Vue powered static site generator.
   actions:

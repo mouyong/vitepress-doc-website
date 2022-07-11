@@ -3,8 +3,8 @@ layout: home
 
 hero:
   name: VuePress
-  text: Vite & Vue powered static site generator.
-  tagline: Lorem ipsum...
+  text: '' # 留空，或者文字内容不要太长
+  tagline: Vite & Vue powered static site generator.
   actions:
     - theme: brand
       text: 数据字典

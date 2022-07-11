@@ -35,7 +35,7 @@ export default Object.assign(userConfig, {
               { text: '团队协同文档', link: 'https://feishu.cn' },
               { text: '项目研发流程', link: 'https://feishu.cn' },
               { text: 'xx - 目录索引', link: 'https://feishu.cn' },
-              { text: '【xxx 项目】需求及 Bug 管理 ', link: 'https://wv446p4j9c.feishu.cn/base/bascnpubydTzWJ5M5LJ2lkWSatS?table=tblfnUy23sIXZDGb&view=vewLycZQX5' },
+              { text: '【xxx 项目】需求及 Bug 管理 ', link: 'https://wv446p4j9c.feishu.cn/base/bascnpubydTzWJ5M5LJ2lkWSatS' },
             ]
           },
           {

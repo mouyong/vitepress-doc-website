@@ -1,1 +1,0 @@
-import{_ as s,o as a,c as n,a as o}from"./app.db6e36e7.js";const i=JSON.parse('{"title":"\u7528\u6237","description":"","frontmatter":{},"headers":[],"relativePath":"api/models/user.md"}'),l={name:"api/models/user.md"},p=o("",2),e=[p];function t(r,c,D,F,y,C){return a(),n("div",null,e)}var A=s(l,[["render",t]]);export{i as __pageData,A as default};

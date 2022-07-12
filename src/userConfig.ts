@@ -54,6 +54,7 @@ export default Object.assign(userConfig, {
           text: '开发资料',
           items: [
             { text: '基础资料', link: '/guide/' },
+            { text: 'xxx - 业务流程图', link: '/guide/business-flowchart' },
           ]
         }
       ],

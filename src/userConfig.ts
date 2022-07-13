@@ -8,6 +8,7 @@ export default Object.assign(userConfig, {
   ignoreDeadLinks: true,
 
   head: [
+    // ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['script', { src: '//unpkg.com/alpinejs', defer: true }],
   ],
 

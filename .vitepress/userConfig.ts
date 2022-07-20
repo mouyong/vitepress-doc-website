@@ -12,7 +12,7 @@ export default {
 
   markdown: {
     theme: 'material-palenight',
-    lineNumbers: false
+    lineNumbers: false,
   },
 
   themeConfig: {
@@ -43,7 +43,7 @@ export default {
             items: [
               { text: 'Apifox', link: 'https://www.apifox.cn/web' },
             ]
-          }
+          },
         ]
       }
     ],
@@ -64,7 +64,7 @@ export default {
             { text: 'Utilities', link: '/guide/support/utilities' },
             { text: 'Models', link: '/guide/support/models' },
           ]
-        }
+        },
       ],
       '/api/': [
         {
@@ -89,7 +89,7 @@ export default {
           items: [
             { text: '用户', link: '/api/models/user' },
           ]
-        }
+        },
       ],
       '/database/': [
         {
@@ -104,7 +104,7 @@ export default {
           items: [
             { text: '民族', link: '/database/dictionary/nation' },
           ]
-        }
+        },
       ]
     },
     /** https://vitepress.vuejs.org/guide/theme-nav.html#social-links */

@@ -39,9 +39,9 @@ export default {
             ]
           },
           {
-            text: 'Apifox',
+            text: '项目 - 接口文档',
             items: [
-              { text: '项目 - 接口文档', link: 'https://www.apifox.cn/web' },
+              { text: 'Apifox', link: 'https://www.apifox.cn/web' },
             ]
           }
         ]

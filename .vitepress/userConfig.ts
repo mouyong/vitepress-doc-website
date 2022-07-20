@@ -56,6 +56,14 @@ export default {
             { text: '基础资料', link: '/guide/' },
             { text: 'xxx - 业务流程图', link: '/guide/business-flowchart' },
           ]
+        },
+        {
+          text: '通用支持',
+          items: [
+            { text: 'Helpers', link: '/guide/support/helpers' },
+            { text: 'Utilities', link: '/guide/support/utilities' },
+            { text: 'Models', link: '/guide/support/models' },
+          ]
         }
       ],
       '/api/': [

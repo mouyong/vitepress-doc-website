@@ -1,0 +1,1 @@
+import{_ as s,o as n,c as a,a as p}from"./app.b1782164.js";const u=JSON.parse('{"title":"\u6C11\u65CF","description":"","frontmatter":{},"headers":[],"relativePath":"database/dictionary/nation.md"}'),l={name:"database/dictionary/nation.md"},o=p("",3),D=[o];function t(e,c,F,r,y,C){return n(),a("div",null,D)}var q=s(l,[["render",t]]);export{u as __pageData,q as default};

@@ -18,6 +18,11 @@ export default {
   themeConfig: {
     logo: false,
     siteTitle: undefined,
+    outlineTitle: '页面梗概',
+    docFooter: {
+      prev: '上一页',
+      next: '下一页',
+    },
     /** https://vitepress.vuejs.org/guide/theme-nav.html#nav */
     nav: [
       { text: '首页', link: '/' },

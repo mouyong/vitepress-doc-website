@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: 数据字典
-      link: /database
+      link: /database/
     - theme: alt
       text: 目录索引
       link: https://feishu.cn/drive/me/

@@ -32,8 +32,8 @@ jobs:
         cache: 'pnpm'
 
     - name: Install dependencies
-    - run: pnpm install
-    - run: pnpm docs:build
+      run: pnpm install
+      run: pnpm docs:build
 
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@v4.3.4

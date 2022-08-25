@@ -126,7 +126,7 @@ export default Object.assign(userConfig, {
    */
   base: '/vitepress-doc-website/',
   srcDir: 'src/', // relative of `vitepress-docs-website/` directory
-  // outDir: '../../public/docs/', // relative of `vitepress-docs-website/` directory
+  // outDir: '../public/docs/', // relative of `vitepress-docs-website/` directory
 
   /**
    * vite config

@@ -1,0 +1,1 @@
+import{_ as t,o as e,c as a,a as d}from"./app.30310ca6.js";const m=JSON.parse('{"title":"\u5168\u5C40\u8BF7\u6C42\u5934","description":"","frontmatter":{},"headers":[],"relativePath":"api/header.md"}'),r={name:"api/header.md"},o=d("",2),n=[o];function c(_,s,h,i,p,l){return e(),a("div",null,n)}const u=t(r,[["render",c]]);export{m as __pageData,u as default};

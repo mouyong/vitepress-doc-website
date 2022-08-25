@@ -1,7 +1,11 @@
 ## 添加文档
 
 ```
+# 添加
 git subtree add -P vitepress-docs/ https://ghproxy.com/https://github.com/mouyong/vitepress-doc-website.git master
+
+# 拉取更新
+git subtree pull -P vitepress-docs/ https://ghproxy.com/https://github.com/mouyong/vitepress-doc-website.git master
 
 # 安装依赖
 cd vitepress-docs/

@@ -7,7 +7,7 @@ specifiers:
   postcss-nested: ^5.0.6
   sass: ^1.53.0
   tailwindcss: ^3.1.4
-  vitepress: ^1.0.0-alpha.10
+  vitepress: ^1.0.0-alpha.12
   vue: ^3.2.37
 
 devDependencies:
@@ -17,7 +17,7 @@ devDependencies:
   postcss-nested: registry.npmmirror.com/postcss-nested/5.0.6_postcss@8.4.16
   sass: registry.npmmirror.com/sass/1.54.5
   tailwindcss: registry.npmmirror.com/tailwindcss/3.1.8
-  vitepress: registry.npmmirror.com/vitepress/1.0.0-alpha.10_sass@1.54.5
+  vitepress: registry.npmmirror.com/vitepress/1.0.0-alpha.12_sass@1.54.5
   vue: registry.npmmirror.com/vue/3.2.37
 
 packages:
@@ -1452,11 +1452,11 @@ packages:
       fsevents: registry.npmmirror.com/fsevents/2.3.2
     dev: true
 
-  registry.npmmirror.com/vitepress/1.0.0-alpha.10_sass@1.54.5:
-    resolution: {integrity: sha512-RGPU+YApj2jaYplAIJUe+2qlDks9FzPX1QGK+7NdGByeCCVZg6z9eYWjjvfvA/sgCtG3yeJE/4/jCwlv4Y8bVw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vitepress/-/vitepress-1.0.0-alpha.10.tgz}
-    id: registry.npmmirror.com/vitepress/1.0.0-alpha.10
+  registry.npmmirror.com/vitepress/1.0.0-alpha.12_sass@1.54.5:
+    resolution: {integrity: sha512-++e7p9oxqk7RKz2fMNtrOAWmZSWVPozDuOG1owwntPRincC8/pIhPkJ9ojNHcHCHBylszJBsjkRqbseurZ7vCg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vitepress/-/vitepress-1.0.0-alpha.12.tgz}
+    id: registry.npmmirror.com/vitepress/1.0.0-alpha.12
     name: vitepress
-    version: 1.0.0-alpha.10
+    version: 1.0.0-alpha.12
     hasBin: true
     dependencies:
       '@docsearch/css': registry.npmmirror.com/@docsearch/css/3.2.1

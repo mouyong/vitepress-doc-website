@@ -18,6 +18,8 @@ export default Object.assign(userConfig, {
   },
 
   themeConfig: {
+    // logo file path ./public/xxx
+    // example: logo: '/logo.png',
     logo: false,
     siteTitle: undefined,
     outlineTitle: '页面梗概',

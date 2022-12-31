@@ -120,7 +120,7 @@ export default Object.assign(userConfig, {
     socialLinks: [{ icon: 'github', link: 'https://github.com/mouyong/vitepress-doc-website' }],
     copyright: `Copyright © 2014-2022 <a href="https://blog.iwnweb.com" target="_blank">牟勇</a><br>
     <a href="https://laravel-workerman.iwnweb.com/" target="_blank">laravel-workerman</a>&nbsp;
-    <a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2022060258号</a><br>`,
+    <a href="https://beian.miit.gov.cn/#/Integrated/recordQuery" target="_blank">蜀ICP备17018093号</a><br>`,
   },
 
   /**

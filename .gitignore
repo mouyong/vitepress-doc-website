@@ -5,3 +5,4 @@ docs/
 *.lock
 *.log
 .htaccess
+.vitepress/cache/

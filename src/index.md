@@ -18,7 +18,7 @@ hero:
     #  link: /guide/
     #- theme: alt
     #  text: 加入我们
-    #  link: https://feishu.cn/drive/me/
+    #  link: /
 
 features:
   - icon: ⚡️

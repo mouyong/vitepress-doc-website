@@ -12,13 +12,12 @@ hero:
     - theme: alt
       text: 目录索引
       link: https://feishu.cn/drive/me/
-
-    #- theme: brand
-    #  text: 开始使用
-    #  link: /guide/
-    #- theme: alt
-    #  text: 加入我们
-    #  link: /
+    # - theme: brand
+    #   text: 开始使用
+    #   link: /guide/
+    # - theme: alt
+    #   text: 加入我们
+    #   link: /
 
 features:
   - icon: ⚡️

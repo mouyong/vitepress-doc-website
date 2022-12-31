@@ -36,18 +36,3 @@
         content: '!'
     }
 }
-
-// 主页按钮外链 icon 颜色
-a[target=_blank].primary .external-link-icon,
-a[target=_blank].primary:hover .external-link-icon,
-a[target=_blank].secondary:hover .external-link-icon
-{
-    color: var(--c-bg);
-}
-
-// 外链 icon 颜色
-a[target=_blank]:hover .external-link-icon,
-a[target=_blank].secondary .external-link-icon
-{
-    color: var(--c-brand);
-}

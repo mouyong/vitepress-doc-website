@@ -1,12 +1,12 @@
 ---
-layout: page
+layout: false
+title: 官网
+titleTemplate: false
 ---
 <script setup>
   import { onMounted, ref } from 'vue'
 
   onMounted(() => {
-    // .vitepress/theme/js/nav.js
-    toggleNavbarOnPageChange()
   })
 </script>
 <style lang="scss">

@@ -3,8 +3,8 @@ layout: home
 
 hero:
   name: VitePress
-  text: '' # 留空，或者文字内容不要太长
-  tagline: Vite & Vue powered static site generator.
+  text: 'Vite & Vue Powered Static Site Generator' # 留空，或者文字内容不要太长
+  tagline: 'Simple, powerful, and performant. Meet the modern SSG framework you've always wanted.'
   actions:
     - theme: brand
       text: 数据字典

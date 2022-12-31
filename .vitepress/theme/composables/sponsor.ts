@@ -18,7 +18,7 @@ interface Sponsor {
 // shared data across instances so we load only once.
 const data = ref()
 
-const dataHost = ''
+const dataHost = 'https://mouyong.github.io/vitepress-doc/website'
 const dataUrl = `${dataHost}/assets/sponsor/sponsors.json`
 
 export function useSponsor() {

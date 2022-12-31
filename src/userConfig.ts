@@ -30,7 +30,7 @@ export default Object.assign(userConfig, {
     /** https://vitepress.vuejs.org/guide/theme-nav.html#nav */
     nav: [
       { text: '首页', link: '/' },
-      { text: '官网', link: '/home' },
+      // { text: '官网', link: '/home' },
       { text: '指南', link: '/guide/' },
       { text: 'API 参考', link: '/api/' },
       { text: '数据字典', link: '/database/' },
@@ -118,8 +118,7 @@ export default Object.assign(userConfig, {
     },
     /** https://vitepress.vuejs.org/guide/theme-nav.html#social-links */
     socialLinks: [{ icon: 'github', link: 'https://github.com/mouyong/vitepress-doc-website' }],
-    copyright: `Copyright © 2014-2022 <a href="https://blog.iwnweb.com" target="_blank">牟勇</a><br>
-    <a href="https://laravel-workerman.iwnweb.com/" target="_blank">laravel-workerman</a>&nbsp;
+    copyright: `Copyright © 2014-2022 <a href="https://laravel-workerman.iwnweb.com/" target="_blank">插件世界</a>&nbsp;
     <a href="https://beian.miit.gov.cn/#/Integrated/recordQuery" target="_blank">蜀ICP备17018093号</a><br>`,
   },
 

@@ -2,9 +2,9 @@
 layout: home
 
 hero:
-  name: VitePress
-  text: "Vite & Vue Powered Static Site Generator" # 留空或文字不要超过10个字（含）
-  tagline: "Simple, powerful, and performant. Meet the modern SSG framework you've always wanted." # 每22字自动换行
+  name: 插件世界
+  text: "查找优秀插件不再困难" # 留空或文字不要超过10个字（含）
+  tagline: "创建属于自己的前端插件、Laravel 插件、Webman 插件、小程序插件、PicGO 插件" # 每22字自动换行
   actions:
     - theme: brand
       text: 数据字典
@@ -19,14 +19,14 @@ hero:
     #   text: 加入我们
     #   link: /
 
-features:
-  - icon: ⚡️
-    title: Vite, The DX that can't be beat
-    details: Lorem ipsum...
-  - icon: 🖖
-    title: Power of Vue meets Markdown
-    details: Lorem ipsum...
-  - icon: 🛠️
-    title: Simple and minimal, always
-    details: Lorem ipsum...
+# features:
+#   - icon: ⚡️
+#     title: Vite, The DX that can't be beat
+#     details: Lorem ipsum...
+#   - icon: 🖖
+#     title: Power of Vue meets Markdown
+#     details: Lorem ipsum...
+#   - icon: 🛠️
+#     title: Simple and minimal, always
+#     details: Lorem ipsum...
 ---

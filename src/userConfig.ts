@@ -2,9 +2,9 @@ import userConfig from '../.vitepress/userConfig'
 
 export default Object.assign(userConfig, {
   lang: 'zh-CN',
-  title: '项目',
+  title: '插件世界',
   titleTemplate: undefined,
-  description: '项目描述',
+  description: '创建属于自己的前端插件、Laravel 插件、Webman 插件、小程序插件、PicGO 插件；让查找优秀的插件不再困难',
   ignoreDeadLinks: true,
 
   head: [

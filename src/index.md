@@ -3,8 +3,8 @@ layout: home
 
 hero:
   name: VitePress
-  text: 'Vite & Vue Powered Static Site Generator'
-  tagline: 'Simple, powerful, and performant. Meet the modern SSG framework you've always wanted.'
+  text: "Vite & Vue Powered Static Site Generator"
+  tagline: "Simple, powerful, and performant. Meet the modern SSG framework you've always wanted."
   actions:
     - theme: brand
       text: 数据字典

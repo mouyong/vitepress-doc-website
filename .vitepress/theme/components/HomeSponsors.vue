@@ -9,7 +9,7 @@ const { data } = useSponsor()
     v-if="data"
     message="Project name is free and open source, made possible by wonderful sponsors."
     action-text="Become a sponsor"
-    action-link="https://github.com/sponsors/mouyong"
+    action-link="https://gitee.com/github-mouyong/vitepress-doc-website?donate=true"
     :data="data"
   />
 </template>

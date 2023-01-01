@@ -7,7 +7,7 @@
 
 ## 全局信息
 
-- 项目接口设计标准参考 `restful`，使用 `http` 请求动词进行请求。
+- 项目接口设计标准参考 `RESTFUL`，使用 `HTTP` 请求动词进行请求。
 
 **接口地址**
 
@@ -27,8 +27,8 @@
 ## 参考文档
 
 ::: tip 前端
-- vue3 tdesign starter
-    - 官方文档：<https://tdesign.tencent.com/starter/docs/vue-next/get-started>
+- SCUI
+    - 官方文档：<https://lolicode.gitee.io/scui-doc/guide/>
 :::
 
 ::: tip 后端

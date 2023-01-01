@@ -16,7 +16,7 @@ const sponsors = computed(() => {
 </script>
 
 <template>
-  <a class="fresnsAside" href="pathname:///community/sponsor" target="_blank">
+  <a class="fresnsAside" href="https://gitee.com/github-mouyong/vitepress-doc-website?donate=true" target="_blank">
     <img width="22" height="22" src="/assets/images/logo.jpeg" />
     <span>
       <p class="extra-info">助力生态可持续发展</p>

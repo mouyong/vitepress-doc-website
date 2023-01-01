@@ -212,7 +212,6 @@ function sidebarCommunity() {
       collapsible: true,
       items: [
         { text: '贡献指南', link: '/contributing/' },
-        { text: '翻译文档', link: '/contributing/translations.md' },
       ]
     },
     {

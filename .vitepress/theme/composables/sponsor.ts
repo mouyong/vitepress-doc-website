@@ -18,8 +18,8 @@ interface Sponsor {
 // shared data across instances so we load only once.
 const data = ref()
 
-const dataHost = 'https://blog.iwnweb.com/vitepress-doc-website'
-const dataUrl = `${dataHost}/assets/sponsor/sponsors.json`
+const dataHost = 'pathname://'
+const dataUrl = `${dataHost}/sponsor/sponsors.json`
 
 export function useSponsor() {
   onMounted(async () => {
@@ -56,6 +56,6 @@ function mapSponsors(sponsors: Sponsors) {
 function mapImgPath(sponsors: Sponsor[]) {
   return sponsors.map((sponsor) => ({
     ...sponsor,
-    img: `${dataHost}/assets/sponsor/images/${sponsor.img}`
+    img: `${dataHost}/sponsor/images/${sponsor.img}`
   }))
 }

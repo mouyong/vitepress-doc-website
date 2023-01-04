@@ -1,4 +1,9 @@
+import { createWriteStream } from 'node:fs'
+import { resolve } from 'node:path'
+import { SitemapStream } from 'sitemap'
 import { defineConfig } from 'vitepress'
+
+const links: Array<any> = []
 
 export default defineConfig({
   lang: 'zh-CN',
@@ -72,10 +77,35 @@ export default defineConfig({
   srcDir: 'src/', // relative of `vitepress-docs-website/` directory
   // outDir: '../public/docs/', // relative of `vitepress-docs-website/` directory
 
+  transformHtml: (_, id, { pageData }) => {
+    if (!/[\\/]404\.html$/.test(id))
+      links.push({
+        // you might need to change this if not using clean urls mode
+        url: pageData.relativePath.replace(/((^|\/)index)?\.md$/, '$2'),
+        lastmod: pageData.lastUpdated
+      })
+  },
+
+  /**
+   * build end.
+   */
+  buildEnd: async ({ outDir }) => {
+    const sitemap = new SitemapStream({
+      hostname: 'https://mouyong.github.io/vitepress-doc-website/'
+    })
+    const writeStream = createWriteStream(resolve(outDir, 'sitemap.xml'))
+    sitemap.pipe(writeStream)
+    links.forEach((link) => sitemap.write(link))
+    sitemap.end()
+    await new Promise((r) => writeStream.on('finish', r))
+  },
+
   /**
    * vite config
    */
   vite: {
+    plugins: [
+    ],
     server: {
       host: '0.0.0.0',
       port: 3000,

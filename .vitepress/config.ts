@@ -178,6 +178,15 @@ function sidebarLaravel() {
       items: [
         { text: '介绍', link: '' },
         { text: '开发流程', link: '' },
+        {
+          text: '案例',
+          items: [
+            { text: 'DcatSass', link: 'https://github.com/mouyong/dcat-saas' },
+            { text: 'JWT 登录', link: 'https://github.com/mouyong/laravel-jwt-auth' },
+            { text: '本地存储', link: 'https://github.com/mouyong/laravel-local-storage' },
+            { text: '七牛云存储', link: 'https://github.com/mouyong/laravel-qiniu' },
+          ]
+        },
       ]
     },
     {
@@ -185,6 +194,12 @@ function sidebarLaravel() {
       items: [
         { text: '介绍', link: '' },
         { text: '开发流程', link: '' },
+        {
+          text: '案例',
+          items: [
+            { text: '全局配置', link: 'https://github.com/mouyong/laravel-config' },
+          ]
+        },
       ]
     },
   ]
@@ -208,6 +223,16 @@ function sidebarFrontend() {
         { text: 'Docker', link: '' },
         { text: '阿里云 OSS', link: '' },
         { text: '其他', link: '' },
+      ]
+    },
+    {
+      text: '案例',
+      items: [
+        { text: '自定义表单', link: 'https://custom-form.hecs.realomics.com/' },
+        { text: '审批流设置', link: 'https://csim.hecs.iwnweb.com/platform#/workflowIframe' },
+        { text: '音视频', link: '' },
+        { text: '文件预览', link: '' },
+        { text: '登录、注册', link: '' },
       ]
     },
   ]

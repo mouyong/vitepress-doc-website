@@ -1,4 +1,5 @@
 import { ref, onMounted } from 'vue'
+import { withBase } from 'vitepress'
 
 interface Sponsors {
   special: Sponsor[]
@@ -18,8 +19,8 @@ interface Sponsor {
 // shared data across instances so we load only once.
 const data = ref()
 
-const dataHost = '/vitepress-doc-website'
-const dataUrl = `${dataHost}/sponsor/sponsors.json`
+const dataHost = window.location.origin
+const dataUrl = dataHost + withBase('/sponsor/sponsors.json')
 
 export function useSponsor() {
   onMounted(async () => {
@@ -56,6 +57,6 @@ function mapSponsors(sponsors: Sponsors) {
 function mapImgPath(sponsors: Sponsor[]) {
   return sponsors.map((sponsor) => ({
     ...sponsor,
-    img: `${dataHost}/sponsor/images/${sponsor.img}`
+    img: dataHost + withBase(`/sponsor/images/${sponsor.img}`)
   }))
 }

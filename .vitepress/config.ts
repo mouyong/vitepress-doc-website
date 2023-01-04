@@ -7,16 +7,16 @@ const links: Array<any> = []
 
 export default defineConfig({
   lang: 'zh-CN',
-  title: '文档站',
+  title: '插件世界',
   titleTemplate: undefined,
-  description: '帮助你快速创建项目的官方文档站点；快速搭建属于你的个人知识体系、博客；',
+  description: '创建属于自己的前端插件、Laravel 插件、Webman 插件、小程序插件、PicGO 插件；让查找优秀的插件不再困难',
   ignoreDeadLinks: true,
   lastUpdated: true,
   // cleanUrls: 'without-subfolders', # 注释了，避免 nginx 静态站部署时，刷新页面会找不到网页
 
   head: [
     // ['link', { rel: 'icon', href: '/favicon.ico' }],
-    ['meta', { name: 'keywords', content: '文档站,VitePress 文档站,博客,知识图谱,知识网,知识体系,官方网站,静态站,hexo' }],
+    ['meta', { name: 'keywords', content: '前端插件,Laravel 插件,Webman 插件,小程序插件,PicGO 插件,Vue 插件, React 插件, Angular 插件' }],
     ['script', { src: '//unpkg.com/alpinejs', defer: 'true' }],
   ],
 
@@ -41,8 +41,8 @@ export default defineConfig({
     /** https://vitepress.vuejs.org/guide/theme-sidebar.html#sidebar */
     sidebar: {
       '/guide/': sidebarGuide(),
-      '/database/': sidebarDatabase(),
-      '/api/': sidebarApi(),
+      '/laravel/': sidebarLaravel(),
+      '/frontend/': sidebarFrontend(),
       '/community/': sidebarCommunity(),
       '/contributing/': sidebarCommunity(),
     },
@@ -73,7 +73,7 @@ export default defineConfig({
   /**
    * build for sub dir
    */
-  base: '/vitepress-doc-website/',
+  // base: '/vitepress-doc-website/',
   srcDir: 'src/', // relative of `vitepress-docs-website/` directory
   // outDir: '../public/docs/', // relative of `vitepress-docs-website/` directory
 
@@ -122,41 +122,24 @@ export default defineConfig({
 function navbar() {
   return [
     { text: '首页', link: '/' },
-    { text: '官网', link: '/home' },
     { text: '指南', link: '/guide/' },
-    { text: '数据字典', link: '/database/' },
-    { text: 'API 参考', link: '/api/' },
+    { text: 'Laravel 插件', link: '/laravel/' },
+    { text: '前端插件', link: '/frontend/' },
+    // { text: 'Webman 插件', link: '/webman/' },
+    // { text: 'PicGo 插件', link: '/picgo/' },
+    // { text: '微信小程序插件', link: '/miniprogram/' },
     {
       text: '生态系统',
       items: [
         { text: '团队', link: '/community/teams' },
         { text: '加入我们', link: '/community/join' },
+        { text: '赞助我们', link: '/community/sponser' },
         { text: '贡献指南', link: '/contributing/' },
-        { text: '互动交流', link: 'https://github.com/mouyong/vitepress-doc-website/issues' },
+        { text: '互动交流', link: '/community/discuss' },
+        { text: '应用市场', link: 'https://market.plugins-world.org' },
       ],
       activeMatch: `^/(community|contributing)/`,
     },
-    {
-      text: '项目资料',
-      items: [
-        {
-          text: '飞书',
-          items: [
-            { text: '团队协同文档', link: 'https://wv446p4j9c.feishu.cn/docs/doccnuDx1Cloij1MQg25I3Z9yUb' },
-            { text: '项目研发流程', link: 'https://wv446p4j9c.feishu.cn/docx/doxcn4BS4V1wo0h1TU14uRZ4icf' },
-            { text: 'xx - 目录索引', link: 'https://feishu.cn' },
-            { text: 'xx - 项目管理表（简化）', link: 'https://wv446p4j9c.feishu.cn/base/bascn38ACf4UHV1cWaPvPEcJoUc' },
-            { text: '【xxx 项目】需求及 Bug 管理（完整）', link: 'https://wv446p4j9c.feishu.cn/base/bascnpubydTzWJ5M5LJ2lkWSatS' },
-          ]
-        },
-        {
-          text: '项目 - 接口文档',
-          items: [
-            { text: 'Apifox', link: 'https://www.apifox.cn/web' },
-          ]
-        },
-      ]
-    }
   ]
 }
 
@@ -182,52 +165,43 @@ function sidebarGuide() {
   ]
 }
 
-function sidebarApi() {
+function sidebarLaravel() {
   return [
     {
-      text: '概览',
-      collapsible: true,
+      text: '插件应用',
       items: [
-        { text: '目录', link: '/api/' },
-        { text: '全局请求头', link: '/api/header' },
-        { text: '全局请求参数', link: '/api/request' },
-        { text: '全局接口响应', link: '/api/response' },
+        { text: '介绍', link: '' },
+        { text: '开发流程', link: '' },
       ]
     },
     {
-      text: '用户',
-      collapsible: true,
+      text: '扩展包',
       items: [
-        { text: '新增用户', link: '/api/user/add' },
-        { text: '获取用户列表', link: '/api/user/list' },
-        { text: '删除用户', link: '/api/user/delete' },
-      ]
-    },
-    {
-      text: '接口数据模型',
-      collapsible: true,
-      items: [
-        { text: '用户', link: '/api/models/user' },
+        { text: '介绍', link: '' },
+        { text: '开发流程', link: '' },
       ]
     },
   ]
 }
 
-function sidebarDatabase() {
+function sidebarFrontend() {
   return [
     {
-      text: '概览',
-      collapsible: true,
+      text: '介绍',
       items: [
-        { text: '目录', link: '/database/' },
-        { text: '用户', link: '/database/user/users' },
+        { text: '主程序', link: '' },
+        { text: '插件', link: '' },
+        { text: '通讯协议', link: '' },
+        { text: '通讯流程图', link: '' },
       ]
     },
     {
-      text: '字典数据',
-      collapsible: true,
+      text: '部署',
       items: [
-        { text: '民族', link: '/database/dictionary/nation' },
+        { text: '宝塔 nginx', link: '' },
+        { text: 'Docker', link: '' },
+        { text: '阿里云 OSS', link: '' },
+        { text: '其他', link: '' },
       ]
     },
   ]

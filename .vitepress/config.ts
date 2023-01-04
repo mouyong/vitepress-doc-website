@@ -164,6 +164,7 @@ function sidebarGuide() {
   return [
     {
       text: '开发资料',
+      collapsible: true,
       items: [
         { text: '基础资料', link: '/guide/' },
         { text: 'xxx - 业务流程图', link: '/guide/business-flowchart' },
@@ -171,6 +172,7 @@ function sidebarGuide() {
     },
     {
       text: '通用支持',
+      collapsible: true,
       items: [
         { text: 'Helpers', link: '/guide/support/helpers' },
         { text: 'Utilities', link: '/guide/support/utilities' },
@@ -184,6 +186,7 @@ function sidebarApi() {
   return [
     {
       text: '概览',
+      collapsible: true,
       items: [
         { text: '目录', link: '/api/' },
         { text: '全局请求头', link: '/api/header' },
@@ -193,6 +196,7 @@ function sidebarApi() {
     },
     {
       text: '用户',
+      collapsible: true,
       items: [
         { text: '新增用户', link: '/api/user/add' },
         { text: '获取用户列表', link: '/api/user/list' },
@@ -201,6 +205,7 @@ function sidebarApi() {
     },
     {
       text: '接口数据模型',
+      collapsible: true,
       items: [
         { text: '用户', link: '/api/models/user' },
       ]
@@ -212,6 +217,7 @@ function sidebarDatabase() {
   return [
     {
       text: '概览',
+      collapsible: true,
       items: [
         { text: '目录', link: '/database/' },
         { text: '用户', link: '/database/user/users' },
@@ -219,6 +225,7 @@ function sidebarDatabase() {
     },
     {
       text: '字典数据',
+      collapsible: true,
       items: [
         { text: '民族', link: '/database/dictionary/nation' },
       ]

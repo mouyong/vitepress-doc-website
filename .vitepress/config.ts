@@ -9,7 +9,7 @@ export default defineConfig({
   lang: 'zh-CN',
   title: '文档站',
   titleTemplate: undefined,
-  description: '快速创建项目的官方文档站点；帮助你快速搭建属于你的个人知识体系、博客；',
+  description: '帮助你快速创建项目的官方文档站点；快速搭建属于你的个人知识体系、博客；',
   ignoreDeadLinks: true,
   lastUpdated: true,
   cleanUrls: 'without-subfolders',

@@ -12,7 +12,7 @@ export default defineConfig({
   description: '创建属于自己的前端插件、Laravel 插件、Webman 插件、小程序插件、PicGO 插件；让查找优秀的插件不再困难',
   ignoreDeadLinks: true,
   lastUpdated: true,
-  // cleanUrls: 'without-subfolders', # 注释了，避免 nginx 静态站部署时，刷新页面会找不到网页
+  cleanUrls: 'without-subfolders', // 注释了，避免 nginx 静态站部署时，刷新页面会找不到网页
 
   head: [
     // ['link', { rel: 'icon', href: '/favicon.ico' }],

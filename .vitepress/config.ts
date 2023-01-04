@@ -54,7 +54,7 @@ export default defineConfig({
     },
 
     editLink: {
-      pattern: 'https://github.com/mouyong/vitepress-doc-website/tree/master/src/:path',
+      pattern: 'https://gitee.com/github-mouyong/plugins-world/blob/master/src/:path',
       text: '提交改进'
     },
 

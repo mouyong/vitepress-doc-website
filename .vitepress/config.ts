@@ -136,7 +136,7 @@ function navbar() {
         { text: '赞助我们', link: '/community/sponsor' },
         { text: '贡献指南', link: '/contributing/' },
         { text: '互动交流', link: '/community/discuss' },
-        { text: '应用市场', link: 'https://market.plugins-world.org' },
+        { text: '应用市场', link: 'https://market.plugins-world.cn' },
       ],
       activeMatch: `^/(community|contributing)/`,
     },

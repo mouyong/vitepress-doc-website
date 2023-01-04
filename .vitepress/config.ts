@@ -91,7 +91,7 @@ export default defineConfig({
    */
   buildEnd: async ({ outDir }) => {
     const sitemap = new SitemapStream({
-      hostname: 'https://mouyong.github.io/vitepress-doc-website/'
+      hostname: 'https://blog.iwnweb.com/vitepress-doc-website/'
     })
     const writeStream = createWriteStream(resolve(outDir, 'sitemap.xml'))
     sitemap.pipe(writeStream)

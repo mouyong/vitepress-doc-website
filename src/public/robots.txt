@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://blog.iwnweb.com/vitepress-doc-website/sitemap.xml

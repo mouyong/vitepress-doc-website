@@ -7,15 +7,16 @@ const links: Array<any> = []
 
 export default defineConfig({
   lang: 'zh-CN',
-  title: '项目名',
+  title: '文档站',
   titleTemplate: undefined,
-  description: '项目描述',
+  description: '快速创建项目的官方文档站点；帮助你快速搭建属于你的个人知识体系、博客；',
   ignoreDeadLinks: true,
   lastUpdated: true,
   cleanUrls: 'without-subfolders',
 
   head: [
     // ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['meta', { name: 'keywords', content: '文档站,VitePress 文档站,博客,知识图谱,知识网,知识体系,官方网站,静态站,hexo' }],
     ['script', { src: '//unpkg.com/alpinejs', defer: 'true' }],
   ],
 
@@ -25,10 +26,9 @@ export default defineConfig({
   },
 
   themeConfig: {
-    // logo file path ./public/xxx
     // example: logo: '/logo.png',
-    // logo: false,
-    logo: '/assets/images/logo.jpeg',
+    // example: logo: false,
+    logo: './logo.jpeg',
     siteTitle: undefined,
     outlineTitle: '页面梗概',
     lastUpdatedText: '最后一次更新',

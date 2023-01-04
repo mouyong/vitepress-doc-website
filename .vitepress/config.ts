@@ -230,7 +230,7 @@ function sidebarCommunity() {
       collapsible: true,
       items: [
         { text: '互动交流', link: 'https://discuss.fresns.cn' },
-        { text: '应用市场', link: 'https://market.fresns.cn/open-source' },
+        { text: '应用市场', link: 'https://market.plugins-world.cn' },
       ]
     },
   ]

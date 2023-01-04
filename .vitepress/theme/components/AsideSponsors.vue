@@ -16,11 +16,11 @@ const sponsors = computed(() => {
 </script>
 
 <template>
-  <a class="fresnsAside" href="https://gitee.com/github-mouyong/vitepress-doc-website?donate=true" target="_blank">
+  <a class="fresnsAside" href="https://gitee.com/github-mouyong/plugins-world?donate=true" target="_blank">
     <img width="22" height="22" src="/logo_square_zh.jpeg" />
     <span>
       <p class="extra-info">助力生态可持续发展</p>
-      <p class="heading">赞助 项目 发展</p>
+      <p class="heading">赞助 插件世界 发展</p>
       <p class="extra-info">成为赞助者</p>
     </span>
   </a>

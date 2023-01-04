@@ -133,7 +133,7 @@ function navbar() {
       items: [
         { text: '团队', link: '/community/teams' },
         { text: '加入我们', link: '/community/join' },
-        { text: '赞助我们', link: '/community/sponser' },
+        { text: '赞助我们', link: '/community/sponsor' },
         { text: '贡献指南', link: '/contributing/' },
         { text: '互动交流', link: '/community/discuss' },
         { text: '应用市场', link: 'https://market.plugins-world.org' },

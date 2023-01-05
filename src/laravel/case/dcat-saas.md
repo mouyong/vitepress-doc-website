@@ -1,9 +1,7 @@
 # DcatSaas
-
 [![License](http://poser.pugx.org/mouyong/dcat-saas/license)](https://packagist.org/packages/mouyong/dcat-saas)
 
 ## 介绍
-
 一款帮助你在 30 分钟内从 0 搭建 Laravel SaaS 化项目的插件。
 
 在`插件管理器`与`应用市场管理器`的插件架构设计下，采用`Tenancy 3.x`、`Dcat-Admin`、`Laravel` 可快速建立属于你的 SaaS 业务框架。
@@ -18,11 +16,9 @@
 - [Laravel](https://laravel.com/)
 
 ## 关注代码仓库
-
 [点击前往代码仓库](https://github.com/mouyong/dcat-saas)
 
 ## 前置要求
-
 - Laravel 9+
 - Tenancy 3+
 - DcatAdmin 2.*
@@ -30,11 +26,8 @@
 - fresns/market-manager ^1
 - 项目已完成 fresns/plugin-manager、fresns/market-manager 的安装。
 
-
 ## 安装
-
-### 修改扩展包稳定性限制
-
+1. 修改扩展包稳定性限制
 `composer.json` 需要允许安装稳定性为 `dev` 的依赖包。相关设置见下方代码。
 ```
 {
@@ -45,7 +38,7 @@
 }
 ```
 
-### 初始化
+2. 初始化
 ```
 # 创建新项目 saas-test
 composer create-project --prefer-dist laravel/laravel saas-test
@@ -94,9 +87,7 @@ php artisan plugin:activate DcatSaas
 php artisan saas:install
 ```
 
-
-### 使用
-
+3. 使用
 ```
 # 常用命令
 php artisan saas                                # 查看 saas 扩展包提供的命令
@@ -114,13 +105,10 @@ php artisan tenants:rollback --tenants foo      # 回滚 foo 租户的迁移，�
 ...
 ```
 
-
-### 前后端分离的部署示例
-
+## 前后端分离的部署示例
 宝塔缓存与前端代理的配置示例：
 
 搭配 `flow.aliyun.com` 或宝塔 `webhook` 可完成项目的 `devops` 自动化部署。
-
 ```
 # scui
 location ~* ^/(dashboard|tenants-assets|img|config|pc) {
@@ -161,10 +149,8 @@ location ~* ^/assets {
 }
 ```
 
-
 ## 协议
 [Apache 2.0](https://github.com/mouyong/dcat-saas/blob/master/LICENSE)
-
 
 ## 开发者交流群
 [技术交流群](https://qm.qq.com/cgi-bin/qm/qr?k=JdZJTPzOEsDo3gCR1ENENRXqWPmM-67l&jump_from=webapi&authKey=5EZ6xwqKptmf3U3QMT/IkclubXceZt2JWqkiQbfwXiELv2d4roHTMX32MmBWoi4q) ID: 305795002

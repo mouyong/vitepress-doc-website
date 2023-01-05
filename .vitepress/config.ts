@@ -179,7 +179,7 @@ function sidebarLaravel() {
         {
           text: '管理器',
           items: [
-            { text: '介绍', link: '/laravel/index.md' },
+            { text: '简介', link: '/laravel/index.md' },
           ]
         },
         {

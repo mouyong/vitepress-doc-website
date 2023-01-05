@@ -176,12 +176,18 @@ function sidebarLaravel() {
     {
       text: '插件应用',
       items: [
-        { text: '介绍', link: '' },
-        { text: '开发流程', link: '' },
+        {
+          text: '管理器',
+          items: [
+            { text: '介绍', link: '/laravel/index.md' },
+            { text: '插件开发', link: '/laravel/plugin-create.md' },
+            { text: '插件安装', link: '/laravel/plugin-install.md' },
+          ]
+        },
         {
           text: '案例',
           items: [
-            { text: 'DcatSass', link: 'https://github.com/mouyong/dcat-saas' },
+            { text: 'DcatSaas', link: '/laravel/case/dcat-saas.md' },
             { text: 'JWT 登录', link: 'https://github.com/mouyong/laravel-jwt-auth' },
             { text: '本地存储', link: 'https://github.com/mouyong/laravel-local-storage' },
             { text: '七牛云存储', link: 'https://github.com/mouyong/laravel-qiniu' },

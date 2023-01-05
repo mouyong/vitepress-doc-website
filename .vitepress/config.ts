@@ -28,7 +28,7 @@ export default defineConfig({
   themeConfig: {
     // example: logo: '/logo.png',
     // example: logo: false,
-    logo: './logo.jpeg',
+    logo: './logo_square_en.jpeg',
     siteTitle: undefined,
     outlineTitle: '页面梗概',
     lastUpdatedText: '最后一次更新',

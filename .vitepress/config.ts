@@ -128,7 +128,7 @@ export default defineConfig({
 function navbar() {
   return [
     { text: '首页', link: '/' },
-    { text: '指南', link: '/guide/' },
+    // { text: '指南', link: '/guide/' },
     { text: 'Laravel 插件', link: '/laravel/' },
     { text: '前端插件', link: '/frontend/' },
     // { text: 'Webman 插件', link: '/webman/' },

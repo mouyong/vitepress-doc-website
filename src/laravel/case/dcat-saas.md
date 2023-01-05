@@ -19,7 +19,7 @@
 
 ## 关注代码仓库
 
-点击[前往](https://github.com/mouyong/dcat-saas)
+[点击前往代码仓库](https://github.com/mouyong/dcat-saas)
 
 ## 前置要求
 

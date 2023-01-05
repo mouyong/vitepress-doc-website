@@ -198,6 +198,7 @@ function sidebarLaravel() {
           text: '案例',
           items: [
             { text: '全局配置', link: 'https://github.com/mouyong/laravel-config' },
+            { text: '文档生成工具', link: 'https://github.com/mouyong/laravel-doc' },
           ]
         },
       ]

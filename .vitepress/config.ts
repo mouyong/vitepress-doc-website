@@ -180,8 +180,6 @@ function sidebarLaravel() {
           text: '管理器',
           items: [
             { text: '介绍', link: '/laravel/index.md' },
-            { text: '插件开发', link: '/laravel/plugin-create.md' },
-            { text: '插件安装', link: '/laravel/plugin-install.md' },
           ]
         },
         {

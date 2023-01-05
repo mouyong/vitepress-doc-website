@@ -180,10 +180,14 @@ function sidebarLaravel() {
           text: '管理器',
           items: [
             { text: '简介', link: '/laravel/index.md' },
+            { text: '开发插件', link: '/laravel/create-plugin.md' },
+            { text: '发布插件', link: '/laravel/publish-plugin.md' },
+            { text: '安装插件', link: '/laravel/install-plugin.md' },
+            { text: '移除插件', link: '/laravel/remove-plugin.md' },
           ]
         },
         {
-          text: '案例',
+          text: '插件案例',
           items: [
             { text: 'DcatSaas', link: '/laravel/case/dcat-saas.md' },
             { text: 'JWT 登录', link: 'https://github.com/mouyong/laravel-jwt-auth' },
@@ -196,7 +200,7 @@ function sidebarLaravel() {
     {
       text: '扩展包',
       items: [
-        { text: '介绍', link: '' },
+        { text: '简介', link: '' },
         { text: '开发流程', link: '' },
         {
           text: '案例',

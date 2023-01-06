@@ -173,7 +173,7 @@ function sidebarGuide() {
       ]
     },
     {
-      text: '快速入门',
+      text: '最佳实践',
       collapsible: true,
       items: [
         { text: '前端插件最佳实践', link: '/frontend/' },

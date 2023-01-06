@@ -149,10 +149,12 @@ function navbar() {
       items: [
         { text: '团队', link: '/community/teams' },
         { text: '加入我们', link: '/community/join' },
+        { text: '赞助我们', link: '/community/sponsor' },
         { text: '贡献指南', link: '/contributing/' },
         { text: '常见问题', link: '/community/faq' },
         { text: '提交反馈', link: '/contributing/feedback' },
         { text: '互动交流', link: '/community/disccuss' },
+        { text: '互动交流', link: 'https://market.plugins-world.cn' },
       ],
       activeMatch: `^/(community|contributing)/`,
     },
@@ -269,6 +271,8 @@ function sidebarCommunity() {
       collapsible: true,
       items: [
         { text: '贡献指南', link: '/contributing/' },
+        { text: '常见问题', link: '/community/faq.md' },
+        { text: '提交反馈', link: '/community/feedback.md' },
       ]
     },
     {
@@ -276,7 +280,7 @@ function sidebarCommunity() {
       collapsible: true,
       items: [
         { text: '互动交流', link: '/community/discuss.md' },
-        { text: '应用市场', link: 'https://market.fresns.cn/open-source' },
+        { text: '应用市场', link: 'https://market.plugins-world.cn' },
       ]
     },
   ]

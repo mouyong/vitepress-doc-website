@@ -140,7 +140,7 @@ export default defineConfig({
 function navbar() {
   return [
     { text: '首页', link: '/' },
-    // { text: '指南', link: '/guide/' },
+    { text: '指南', link: '/guide/' },
     { text: '前端插件', link: '/frontend/' },
     { text: 'Laravel 插件', link: '/laravel/' },
     { text: 'Webman 插件', link: '/webman/' },
@@ -166,22 +166,23 @@ function navbar() {
 function sidebarGuide() {
   return [
     {
-      text: '开发资料',
+      text: '简介',
       collapsible: true,
       items: [
-        { text: '基础资料', link: '/guide/' },
+        { text: '词汇表', link: '/guide/' },
         { text: 'xxx - 业务流程图', link: '/guide/business-flowchart' },
       ]
     },
-    {
-      text: '通用支持',
-      collapsible: true,
-      items: [
-        { text: 'Helpers', link: '/guide/support/helpers' },
-        { text: 'Utilities', link: '/guide/support/utilities' },
-        { text: 'Models', link: '/guide/support/models' },
-      ]
-    },
+    { text: '词汇表', link: '/guide/glossary' },
+    // {
+    //   text: '通用支持',
+    //   collapsible: true,
+    //   items: [
+    //     { text: 'Helpers', link: '/guide/support/helpers' },
+    //     { text: 'Utilities', link: '/guide/support/utilities' },
+    //     { text: 'Models', link: '/guide/support/models' },
+    //   ]
+    // },
   ]
 }
 

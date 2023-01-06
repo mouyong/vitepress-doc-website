@@ -8,8 +8,14 @@
 
 - [技术交流群](https://qm.qq.com/cgi-bin/qm/qr?k=JdZJTPzOEsDo3gCR1ENENRXqWPmM-67l&jump_from=webapi&authKey=5EZ6xwqKptmf3U3QMT/IkclubXceZt2JWqkiQbfwXiELv2d4roHTMX32MmBWoi4q) ID: 305795002
 
-## 官方站 ISSUE
+## 支持社区
 
-问题跟进，互动交流，贡献 PR
+互动交流
+
+- 前往[支持社区](https://github.com/mouyong/vitepress-doc-website/discussions)
+
+## 问题追踪器
+
+问题跟进、PR 贡献
 
 - 前往[提问与讨论](https://gitee.com/github-mouyong/plugins-world/issues)

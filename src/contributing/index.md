@@ -58,12 +58,12 @@ close #12
 
 ### PHP 后端
 
-1. PHP 编码规范
+**1. PHP 编码规范**
 - [PSR-1](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-1-coding-style-guide.md) 编码规范
 - [PSR-2](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md) 编码规范
 - [PSR-4](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-4-autoloader.md) 自动加载规范
 
-2. PHP 编码约定(参考来源: [Fresns](https://fresns.cn/contributing/#编码风格))
+**2. PHP 编码约定(参考来源: [Fresns](https://fresns.cn/contributing/#编码风格))**
 - 命名空间应当是单数（例如：`PluginsWorld\Discussion`，而非 `PluginsWorld\Discussions`）
 - 接口命名应当以 `Interface` 结尾（例如：`MailableInterface`）
 - 抽象类命名应当以 `Abstract` 开头（例如：`AbstractModel`）
@@ -72,7 +72,7 @@ close #12
     - `state` 交通灯状态： red -> green -> yellow
     - `status` 付款结果： success / failed
 
-3. PHP 模型约定
+**3. PHP 模型约定**
 ::: details 查看 Model 相关代码段顺序定义
 ```php
 class XxxModel
@@ -93,7 +93,7 @@ class XxxModel
 ```
 :::
 
-4. 数据库风格
+**4. 数据库风格**
 **表** 的命名规则如下：
 * 使用复数形式（`languages`）
 * 多个单词之间用下划线分隔（`session_tokens`）
@@ -110,10 +110,10 @@ class XxxModel
 
 ### 前端
 
-1. 前端编码规范  
+**1. 前端编码规范**  
 *待完善*
 
-2. 前端性能优化之雅虎35条军规
+**2. 前端性能优化之雅虎35条军规**
 - 查看[原文](https://developer.yahoo.com/performance/rules.html)
 - 查看[掘金文章](https://juejin.cn/post/6844903657318645767)
 

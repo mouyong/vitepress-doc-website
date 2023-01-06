@@ -153,9 +153,9 @@ function navbar() {
         { text: '加入我们', link: '/community/join' },
         { text: '赞助我们', link: '/community/sponsor' },
         { text: '贡献指南', link: '/contributing/' },
-        { text: '互动交流', link: '/community/discuss' },
         { text: '常见问题', link: '/community/faq' },
         { text: '提交反馈', link: '/contributing/feedback' },
+        { text: '互动交流', link: '/community/disccuss' },
         { text: '应用市场', link: 'https://market.plugins-world.cn' },
       ],
       activeMatch: `^/(community|contributing)/`,
@@ -277,6 +277,8 @@ function sidebarCommunity() {
       collapsible: true,
       items: [
         { text: '贡献指南', link: '/contributing/' },
+        { text: '常见问题', link: '/community/faq.md' },
+        { text: '提交反馈', link: '/community/feedback.md' },
       ]
     },
     {

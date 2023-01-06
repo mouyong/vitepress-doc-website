@@ -152,7 +152,7 @@ function navbar() {
         { text: '贡献指南', link: '/contributing/' },
         { text: '场景问题', link: '/community/faq' },
         { text: '提交反馈', link: '/contributing/feedback' },
-        { text: '互动交流', link: 'https://github.com/mouyong/vitepress-doc-website/issues' },
+        { text: '互动交流', link: '/community/disccuss' },
       ],
       activeMatch: `^/(community|contributing)/`,
     },

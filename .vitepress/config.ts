@@ -170,7 +170,53 @@ function sidebarGuide() {
       collapsible: true,
       items: [
         { text: '基本概念', link: '/guide/' },
-        { text: '使用指引', link: '/guide/guidelines' },
+      ]
+    },
+    {
+      text: '快速入门',
+      collapsible: true,
+      items: [
+        { text: '前端插件最佳实践', link: '/frontend/' },
+        { text: 'Laravel 插件最佳实践', link: '/laravel/' },
+        { text: 'Webman 插件最佳实践', link: '/webman/' },
+        { text: 'PicGO 插件最佳实践', link: '/picgo/' },
+        { text: '微信小程序插件最佳实践', link: '/miniprogram/' },
+      ]
+    },
+  ]
+}
+
+function sidebarFrontend() {
+  return [
+    {
+      text: '介绍',
+      collapsible: true,
+      items: [
+        { text: '主程序', link: '' },
+        { text: '插件', link: '' },
+        { text: '通讯协议', link: '' },
+        { text: '通讯流程图', link: '' },
+      ]
+    },
+    {
+      text: '部署',
+      collapsible: true,
+      items: [
+        { text: '宝塔 nginx', link: '' },
+        { text: 'Docker', link: '' },
+        { text: '阿里云 OSS', link: '' },
+        { text: '其他', link: '' },
+      ]
+    },
+    {
+      text: '案例',
+      collapsible: true,
+      items: [
+        { text: '自定义表单', link: 'https://custom-form.hecs.realomics.com/' },
+        { text: '审批流设置', link: 'https://csim.hecs.iwnweb.com/platform#/workflowIframe' },
+        { text: '音视频', link: '' },
+        { text: '文件预览', link: '' },
+        { text: '登录、注册', link: '' },
       ]
     },
   ]
@@ -180,6 +226,7 @@ function sidebarLaravel() {
   return [
     {
       text: '插件应用',
+      collapsible: true,
       items: [
         {
           text: '管理器',
@@ -204,6 +251,7 @@ function sidebarLaravel() {
     },
     {
       text: '扩展包',
+      collapsible: true,
       items: [
         { text: '简介', link: '' },
         { text: '开发流程', link: '' },
@@ -214,39 +262,6 @@ function sidebarLaravel() {
             { text: '文档生成工具', link: 'https://github.com/mouyong/laravel-doc' },
           ]
         },
-      ]
-    },
-  ]
-}
-
-function sidebarFrontend() {
-  return [
-    {
-      text: '介绍',
-      items: [
-        { text: '主程序', link: '' },
-        { text: '插件', link: '' },
-        { text: '通讯协议', link: '' },
-        { text: '通讯流程图', link: '' },
-      ]
-    },
-    {
-      text: '部署',
-      items: [
-        { text: '宝塔 nginx', link: '' },
-        { text: 'Docker', link: '' },
-        { text: '阿里云 OSS', link: '' },
-        { text: '其他', link: '' },
-      ]
-    },
-    {
-      text: '案例',
-      items: [
-        { text: '自定义表单', link: 'https://custom-form.hecs.realomics.com/' },
-        { text: '审批流设置', link: 'https://csim.hecs.iwnweb.com/platform#/workflowIframe' },
-        { text: '音视频', link: '' },
-        { text: '文件预览', link: '' },
-        { text: '登录、注册', link: '' },
       ]
     },
   ]

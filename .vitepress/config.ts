@@ -169,11 +169,10 @@ function sidebarGuide() {
       text: '简介',
       collapsible: true,
       items: [
-        { text: '词汇表', link: '/guide/' },
-        { text: 'xxx - 业务流程图', link: '/guide/business-flowchart' },
+        { text: '简介', link: '/guide/' },
+        { text: '基本概念', link: '/guide/glossary' },
       ]
     },
-    { text: '词汇表', link: '/guide/glossary' },
     // {
     //   text: '通用支持',
     //   collapsible: true,

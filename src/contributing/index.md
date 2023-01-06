@@ -128,7 +128,7 @@ class XxxModel
 ```
 /*
  * PluginsWorld (https://gitee.com/github-mouyong/plugins-world)
- * Copyright (C) 2021-Present Yong Mou
+ * Copyright (C) 2021-Present mouyong
  * Released under the MIT License.
  */
 ```

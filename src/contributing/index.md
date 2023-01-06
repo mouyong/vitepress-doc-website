@@ -128,7 +128,7 @@ class XxxModel
 ```
 /*
  * 项目代号 (https://github.com/mouyong/vitepress-doc-website)
- * Copyright (C) 2021-Present Yong Mou
+ * Copyright (C) 2021-Present mouyong
  * Released under the MIT License.
  */
 ```

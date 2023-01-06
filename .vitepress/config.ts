@@ -26,7 +26,7 @@ export default defineConfig({
   },
 
   themeConfig: {
-    // example: logo: '/logo.png',
+    // example: logo: '/logo_square_en.png',
     // example: logo: false,
     logo: './logo_square_en.png',
     siteTitle: undefined,
@@ -130,7 +130,6 @@ export default defineConfig({
     }
   }
 })
-
 
 function navbar() {
   return [

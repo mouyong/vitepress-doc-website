@@ -9,14 +9,14 @@ export default defineConfig({
   lang: 'zh-CN',
   title: '插件世界',
   titleTemplate: undefined,
-  description: '让查找优秀的插件不再困难；快来创建属于你的前端插件、Laravel 插件、Webman 插件、小程序插件、PicGO 插件',
+  description: '让查找优秀的插件不再困难；快来创建属于你的前端插件、Laravel 插件、Webman 插件、微信小程序插件、PicGO 插件',
   ignoreDeadLinks: true,
   lastUpdated: true,
   cleanUrls: 'without-subfolders', // 注释了，避免 nginx 静态站部署时，刷新页面会找不到网页
 
   head: [
     // ['link', { rel: 'icon', href: '/favicon.ico' }],
-    ['meta', { name: 'keywords', content: '前端插件,Laravel 插件,Webman 插件,小程序插件,PicGO 插件,Vue 插件, React 插件, Angular 插件' }],
+    ['meta', { name: 'keywords', content: '前端插件,Laravel 插件,Webman 插件,微信小程序插件,PicGO 插件,Vue 插件, React 插件, Angular 插件' }],
     ['script', { src: '//unpkg.com/alpinejs', defer: 'true' }],
   ],
 
@@ -141,11 +141,11 @@ function navbar() {
   return [
     { text: '首页', link: '/' },
     // { text: '指南', link: '/guide/' },
-    { text: 'Laravel 插件', link: '/laravel/' },
     { text: '前端插件', link: '/frontend/' },
-    // { text: 'Webman 插件', link: '/webman/' },
-    // { text: 'PicGo 插件', link: '/picgo/' },
-    // { text: '微信小程序插件', link: '/miniprogram/' },
+    { text: 'Laravel 插件', link: '/laravel/' },
+    { text: 'Webman 插件', link: '/webman/' },
+    { text: 'PicGo 插件', link: '/picgo/' },
+    { text: '微信小程序插件', link: '/miniprogram/' },
     {
       text: '生态系统',
       items: [

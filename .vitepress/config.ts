@@ -176,11 +176,11 @@ function sidebarGuide() {
       text: '最佳实践',
       collapsible: true,
       items: [
-        { text: '前端插件最佳实践', link: '/frontend/' },
-        { text: 'Laravel 插件最佳实践', link: '/laravel/' },
-        { text: 'Webman 插件最佳实践', link: '/webman/' },
-        { text: 'PicGO 插件最佳实践', link: '/picgo/' },
-        { text: '微信小程序插件最佳实践', link: '/miniprogram/' },
+        { text: '前端插件', link: '/frontend/' },
+        { text: 'Laravel 插件', link: '/laravel/' },
+        { text: 'Webman 插件', link: '/webman/' },
+        { text: 'PicGO 插件', link: '/picgo/' },
+        { text: '微信小程序插件', link: '/miniprogram/' },
       ]
     },
   ]

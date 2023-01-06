@@ -100,7 +100,7 @@ export default defineConfig({
     if (!/[\\/]404\.html$/.test(id))
       links.push({
         // you might need to change this if not using clean urls mode
-        url: pageData.relativePath.replace(/((^|\/)index)?\.md$/, '$2'),
+        url: pageData.relativePath.replace(/((^|\/)index)?\$/, '$2'),
         lastmod: pageData.lastUpdated
       })
   },
@@ -258,9 +258,9 @@ function sidebarCommunity() {
       text: '关于',
       collapsible: true,
       items: [
-        { text: '团队', link: '/community/teams.md' },
-        { text: '加入我们', link: '/community/join.md' },
-        { text: '赞助我们', link: '/community/sponsor.md' },
+        { text: '团队', link: '/community/teams' },
+        { text: '加入我们', link: '/community/join' },
+        { text: '赞助我们', link: '/community/sponsor' },
       ]
     },
     {
@@ -268,15 +268,15 @@ function sidebarCommunity() {
       collapsible: true,
       items: [
         { text: '贡献指南', link: '/contributing/' },
-        { text: '常见问题', link: '/community/faq.md' },
-        { text: '提交反馈', link: '/contributing/feedback.md' },
+        { text: '常见问题', link: '/community/faq' },
+        { text: '提交反馈', link: '/contributing/feedback' },
       ]
     },
     {
       text: '互动',
       collapsible: true,
       items: [
-        { text: '互动交流', link: '/community/discuss.md' },
+        { text: '互动交流', link: '/community/discuss' },
         { text: '应用市场', link: 'https://market.plugins-world.cn' },
       ]
     },

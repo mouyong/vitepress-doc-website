@@ -56,7 +56,7 @@ export default defineConfig({
       ],
     footer: {
       message: 'Released under the <a href="https://github.com/vuejs/vitepress/blob/main/LICENSE">MIT License</a>.',
-      copyright: 'Copyright © 2014-present <a href="https://github.com/mouyong">mouyong</a>'
+      copyright: 'Copyright © 2014-present <a href="https://blog.iwnweb.com">mouyong</a>'
     },
 
     editLink: {

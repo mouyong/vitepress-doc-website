@@ -20,7 +20,7 @@
 | [约定式提交规范](https://www.conventionalcommits.org/zh-hans/v1.0.0/) | Conventional Commits |
 | [语义化版本号](https://semver.org/lang/zh-CN/) | Gravatars |
 | [中文文档编写指南](https://tangjie.me/copywriting-style-guide) | 唐杰 |
-| [英文文档编写指南](writing-guide.md) | Vue.js |
+| [英文文档编写指南](https://fresns.cn/contributing/writing-guide.html) | Vue.js |
 
 ::: details 查看 Commit 类型介绍
 - 日志的所有内容都使用 ASCII 字符，不要用中文或者 emoji，这样最大化兼容性，也便于程序处理。总体结构如下：

@@ -278,7 +278,7 @@ function sidebarCommunity() {
       items: [
         { text: '贡献指南', link: '/contributing/' },
         { text: '常见问题', link: '/community/faq.md' },
-        { text: '提交反馈', link: '/community/feedback.md' },
+        { text: '提交反馈', link: '/contributing/feedback.md' },
       ]
     },
     {

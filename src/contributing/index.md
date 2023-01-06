@@ -1,5 +1,10 @@
 # 贡献指南
+<<<<<<< HEAD
 你好！很高兴你有兴趣为 `插件世界` 做贡献。
+=======
+
+你好！很高兴你有兴趣为 `项目名` 做贡献。
+>>>>>>> master
 
 你的每一次提问，每一句答复，每一场批评，每一行代码，每一个插件，对我们都是无比珍贵。
 
@@ -52,9 +57,11 @@ close #12
 :::
 
 ## 编码风格
+
 为了保持代码库的整洁性和一致性，务必请你一定要遵守相关语言的的编码风格。如果您对此有疑问，请阅读相关源代码。这使得我们可以专注在贡献的内容本身，而非代码风格上。请您尽量在贡献时模仿其他代码库使用的风格。
 
 ### PHP 后端
+
 1. PHP 编码规范
 - [PSR-1](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-1-coding-style-guide.md) 编码规范
 - [PSR-2](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md) 编码规范
@@ -106,6 +113,7 @@ class XxxModel
 - 颜色值字段统一存储为 6 位十六进制颜色值。
 
 ### 前端
+
 1. 前端编码规范  
 *待完善*
 

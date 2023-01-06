@@ -169,8 +169,8 @@ function sidebarGuide() {
       text: '简介',
       collapsible: true,
       items: [
-        { text: '基本概念', link: '/guide/glossary' },
-        { text: '使用指引', link: '/guide/' },
+        { text: '基本概念', link: '/guide/' },
+        { text: '使用指引', link: '/guide/guidelines' },
       ]
     },
   ]

@@ -189,7 +189,7 @@ function sidebarGuide() {
 function sidebarFrontend() {
   return [
     {
-      text: '介绍',
+      text: '简介',
       collapsible: true,
       items: [
         { text: '主程序', link: '' },

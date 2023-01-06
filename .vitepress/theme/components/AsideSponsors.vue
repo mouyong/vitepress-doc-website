@@ -17,7 +17,7 @@ const sponsors = computed(() => {
 
 <template>
   <a class="fresnsAside" href="https://gitee.com/github-mouyong/plugins-world?donate=true" target="_blank">
-    <img width="22" height="22" src="/logo_square_zh.png" />
+    <img width="22" height="22" src="/logo_square_en.png" />
     <span>
       <p class="extra-info">助力生态可持续发展</p>
       <p class="heading">赞助 插件世界 发展</p>

@@ -9,4 +9,4 @@
 ## 官方站 ISSUE
 问题跟进，互动交流，贡献 PR
 
-- 前往[提问](https://github.com/mouyong/vitepress-doc-website/issues)
+- 前往[讨论与提问](https://github.com/mouyong/vitepress-doc-website/issues)

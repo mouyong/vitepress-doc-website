@@ -150,6 +150,7 @@ function navbar() {
         { text: '团队', link: '/community/teams' },
         { text: '加入我们', link: '/community/join' },
         { text: '贡献指南', link: '/contributing/' },
+        { text: '提交反馈', link: '/contributing/feedback' },
         { text: '互动交流', link: 'https://github.com/mouyong/vitepress-doc-website/issues' },
       ],
       activeMatch: `^/(community|contributing)/`,

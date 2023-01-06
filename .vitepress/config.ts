@@ -273,7 +273,7 @@ function sidebarCommunity() {
       text: '互动',
       collapsible: true,
       items: [
-        { text: '互动交流', link: 'https://discuss.fresns.cn' },
+        { text: '互动交流', link: '/community/discuss.md' },
         { text: '应用市场', link: 'https://market.fresns.cn/open-source' },
       ]
     },

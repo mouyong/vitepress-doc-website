@@ -173,15 +173,6 @@ function sidebarGuide() {
         { text: '基本概念', link: '/guide/glossary' },
       ]
     },
-    // {
-    //   text: '通用支持',
-    //   collapsible: true,
-    //   items: [
-    //     { text: 'Helpers', link: '/guide/support/helpers' },
-    //     { text: 'Utilities', link: '/guide/support/utilities' },
-    //     { text: 'Models', link: '/guide/support/models' },
-    //   ]
-    // },
   ]
 }
 

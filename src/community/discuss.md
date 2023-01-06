@@ -9,4 +9,4 @@
 ## 官方站 ISSUE
 问题跟进，互动交流，贡献 PR
 
-- 前往[提问](https://gitee.com/github-mouyong/plugins-world/issues)
+- 前往[提问与讨论](https://gitee.com/github-mouyong/plugins-world/issues)

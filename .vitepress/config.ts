@@ -192,6 +192,7 @@ function sidebarFrontend() {
       text: '简介',
       collapsible: true,
       items: [
+        { text: '基本概念', link: '/frontend/' },
         { text: '主程序', link: '' },
         { text: '插件', link: '' },
         { text: '通讯协议', link: '' },

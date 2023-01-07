@@ -1,7 +1,7 @@
 # 提交反馈
 
 ::: danger 安全漏洞
-如果你发现 插件世界 存在安全漏洞，请发送邮件至 [my24251325@gmail.com](mailto:my24251325@gmail.com) ，我们会及时处理。
+如果你发现 文档站 存在安全漏洞，请发送邮件至 [my24251325@gmail.com](mailto:my24251325@gmail.com) ，我们会及时处理。
 :::
 
 我们很欢迎、也非常感谢你帮助我们测试 项目名！编写一份良好的反馈报告需要一些时间和精力，因此我们希望你能做到耐心地排除故障并清楚地沟通问题，如果可以的话，就继续往下看吧！
@@ -11,15 +11,15 @@
 已经发现了一个 Bug？很好！这确实是个好消息——但你应该先查看一下相关情况，以免你在已知问题上浪费时间：
 
 <!-- - 搜索 [支持社区](https://github.com/mouyong/vitepress-doc-website/discussions)，看看这个 bug 是否已经被报告。 -->
-- 搜索我们的 [问题追踪器](https://gitee.com/github-mouyong/plugins-world/issues)，或许这个 bug 正在修复中。
+- 搜索我们的 [问题追踪器](https://github.com/mouyong/vitepress-doc-website/issues)，或许这个 bug 正在修复中。
 
 在**搜索一番**后，如果无人报告该问题，欢迎你提交报告。
 
 ## 报告
 
-所有的 Issue 我们都是在 GitHub 上跟踪、处理的。请你在[正确的仓库](https://gitee.com/github-mouyong/plugins-world) 创建问题（Issue），新建 Issue 时，会自动生成问题报告的模板，请填写其中的所有内容。
+所有的 Issue 我们都是在 GitHub 上跟踪、处理的。请你在[正确的仓库](https://github.com/mouyong/vitepress-doc-website) 创建问题（Issue），新建 Issue 时，会自动生成问题报告的模板，请填写其中的所有内容。
 
-如果可以，请检查最新版本的 插件世界 是否可以重现该问题。如果你使用的是预发行版本或开发版本，请指出你使用的特定版本。
+如果可以，请检查最新版本的 文档站 是否可以重现该问题。如果你使用的是预发行版本或开发版本，请指出你使用的特定版本。
 
 请注意：问题报告使我们能够轻松地复现并修复错误，你可能需要阅读[这篇文章](https://www.chiark.greenend.org.uk/~sgtatham/bugs-cn.html)，了解如何撰写有效的错误报告。请你**务必**清晰描述重现问题的必要步骤。没有明确重现步骤的 Issue 将不会被标记/分类。如果一个标记为「需要验证（needs verification）」的 Issue 从被标记开始 5 天后，Issue 创建者仍没有反馈进一步的信息，该问题将被关闭。
 

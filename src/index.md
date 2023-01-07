@@ -3,9 +3,9 @@ layout: home
 titleTemplate: false
 
 hero:
-  name: 插件世界
-  text: "查找插件从未如此简单"
-  tagline: "让查找优秀的插件不再困难；快来创建属于你的前端插件、Laravel 插件、Webman 插件、微信小程序插件、PicGO 插件"
+  name: 文档站
+  text: "创建个人网站、官方站点不再困难"
+  tagline: "帮助你快速创建项目的官方文档站点；快速搭建属于你的个人知识体系、博客；"
   actions:
     - theme: brand
       text: 开始使用

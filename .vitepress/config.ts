@@ -110,7 +110,7 @@ export default defineConfig({
    */
   buildEnd: async ({ outDir }) => {
     const sitemap = new SitemapStream({
-      hostname: 'https://plugins-world.cn'
+      hostname: 'https://plugins-world.hecs.iwnweb.com'
     })
     const writeStream = createWriteStream(resolve(outDir, 'sitemap.xml'))
     sitemap.pipe(writeStream)
@@ -156,7 +156,7 @@ function navbar() {
         { text: '常见问题', link: '/community/faq' },
         { text: '提交反馈', link: '/contributing/feedback' },
         { text: '互动交流', link: '/community/discuss' },
-        { text: '应用市场', link: 'https://market.plugins-world.cn' },
+        { text: '应用市场', link: 'https://market.plugins-world.hecs.iwnweb.com' },
       ],
       activeMatch: `^/(community|contributing)/`,
     },
@@ -319,7 +319,7 @@ function sidebarCommunity() {
       collapsible: true,
       items: [
         { text: '互动交流', link: '/community/discuss' },
-        { text: '应用市场', link: 'https://market.plugins-world.cn' },
+        { text: '应用市场', link: 'https://market.plugins-world.hecs.iwnweb.com' },
       ]
     },
   ]

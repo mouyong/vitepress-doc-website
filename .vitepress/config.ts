@@ -43,6 +43,8 @@ export default defineConfig({
       '/guide/': sidebarGuide(),
       '/laravel/': sidebarLaravel(),
       '/frontend/': sidebarFrontend(),
+      // '/database/': sidebarDatabase(),
+      // '/api/': sidebarApi(),
       '/community/': sidebarCommunity(),
       '/contributing/': sidebarCommunity(),
     },
@@ -64,12 +66,12 @@ export default defineConfig({
         icon: {
           svg: '<svg class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4808" height="128" width="128"><path d="M832 160c16.954 0 32.986 6.696 45.145 18.855C889.304 191.014 896 207.046 896 224v416c0 16.954-6.696 32.986-18.855 45.145C864.986 697.304 848.954 704 832 704H192c-16.954 0-32.986-6.696-45.145-18.855C134.696 672.986 128 656.954 128 640V224c0-16.954 6.696-32.986 18.855-45.145C159.014 166.696 175.046 160 192 160h640m0-64H192c-70.4 0-128 57.6-128 128v416c0 70.4 57.6 128 128 128h640c70.4 0 128-57.6 128-128V224c0-70.4-57.6-128-128-128zM736 928H288c-17.6 0-32-14.4-32-32s14.4-32 32-32h448c17.6 0 32 14.4 32 32s-14.4 32-32 32zM736 352H288c-17.6 0-32-14.4-32-32s14.4-32 32-32h448c17.6 0 32 14.4 32 32s-14.4 32-32 32zM544 576H288c-17.6 0-32-14.4-32-32s14.4-32 32-32h256c17.6 0 32 14.4 32 32s-14.4 32-32 32z" p-id="4809"></path></svg>'
         },
-        link: 'https://github.com/mouyong/vitepress-doc-website' 
+        link: 'https://mouyong.github.io/vitepress-doc-website'
       },
     ],
     footer: {
       // message: 'Released under the <a href="https://github.com/vuejs/vitepress/blob/main/LICENSE">MIT License</a>.',
-      copyright: 'Copyright © 2014-present <a href="https://blog.iwnweb.com">mouyong</a>'
+      copyright: 'Copyright © 2014-present <a href="https://mouyong.github.io">mouyong</a>'
     },
 
     editLink: {
@@ -146,6 +148,8 @@ function navbar() {
     { text: 'Webman 插件', link: '/webman/' },
     { text: 'PicGo 插件', link: '/picgo/' },
     { text: '微信小程序插件', link: '/miniprogram/' },
+    // { text: '数据字典', link: '/database/' },
+    // { text: 'API 参考', link: '/api/' },
     {
       text: '生态系统',
       items: [
@@ -160,6 +164,27 @@ function navbar() {
       ],
       activeMatch: `^/(community|contributing)/`,
     },
+    // {
+    //   text: '项目资料',
+    //   items: [
+    //     {
+    //       text: '飞书',
+    //       items: [
+    //         { text: '团队协同文档', link: 'https://wv446p4j9c.feishu.cn/docs/doccnuDx1Cloij1MQg25I3Z9yUb' },
+    //         { text: '项目研发流程', link: 'https://wv446p4j9c.feishu.cn/docx/doxcn4BS4V1wo0h1TU14uRZ4icf' },
+    //         { text: 'xx - 目录索引', link: 'https://feishu.cn' },
+    //         { text: 'xx - 项目管理表（简化）', link: 'https://wv446p4j9c.feishu.cn/base/bascn38ACf4UHV1cWaPvPEcJoUc' },
+    //         { text: '【xxx 项目】需求及 Bug 管理（完整）', link: 'https://wv446p4j9c.feishu.cn/base/bascnpubydTzWJ5M5LJ2lkWSatS' },
+    //       ]
+    //     },
+    //     {
+    //       text: '项目 - 接口文档',
+    //       items: [
+    //         { text: 'Apifox', link: 'https://www.apifox.cn/web' },
+    //       ]
+    //     },
+    //   ]
+    // }
   ]
 }
 
@@ -289,6 +314,57 @@ function sidebarLaravel() {
             { text: '文档生成工具', link: 'https://github.com/mouyong/laravel-doc' },
           ]
         },
+      ]
+    },
+  ]
+}
+
+function sidebarApi() {
+  return [
+    {
+      text: '概览',
+      collapsible: true,
+      items: [
+        { text: '目录', link: '/api/' },
+        { text: '全局请求头', link: '/api/header' },
+        { text: '全局请求参数', link: '/api/request' },
+        { text: '全局接口响应', link: '/api/response' },
+      ]
+    },
+    {
+      text: '用户',
+      collapsible: true,
+      items: [
+        { text: '新增用户', link: '/api/user/add' },
+        { text: '获取用户列表', link: '/api/user/list' },
+        { text: '删除用户', link: '/api/user/delete' },
+      ]
+    },
+    {
+      text: '接口数据模型',
+      collapsible: true,
+      items: [
+        { text: '用户', link: '/api/models/user' },
+      ]
+    },
+  ]
+}
+
+function sidebarDatabase() {
+  return [
+    {
+      text: '概览',
+      collapsible: true,
+      items: [
+        { text: '目录', link: '/database/' },
+        { text: '用户', link: '/database/user/users' },
+      ]
+    },
+    {
+      text: '字典数据',
+      collapsible: true,
+      items: [
+        { text: '民族', link: '/database/dictionary/nation' },
       ]
     },
   ]

@@ -232,19 +232,19 @@ function sidebarFrontend() {
           text: '新手指引',
           items: [
             { text: '目录结构', link: '' },
-            { text: '引用插件', link: '' },
-            { text: '创建插件', link: '' },
+            { text: '引用插件/安装插件', link: '/laravel/install-plugin' },
+            { text: '移除插件', link: '/laravel/remove-plugin' },
+            { text: '创建插件', link: '/laravel/create-plugin' },
+            { text: '发布插件', link: '/laravel/publish-plugin' },
             {
               text: '部署插件',
               collapsible: true,
               items: [
                 { text: '宝塔 nginx', link: '' },
                 { text: 'Docker', link: '' },
-                { text: '阿里云 OSS', link: '' },
-                { text: '其他', link: '' },
+                { text: 'K8S', link: '' },
               ]
             },
-            { text: '发布插件', link: '' },
           ]
         },
       ]
@@ -277,43 +277,29 @@ function sidebarLaravel() {
       ]
     },
     {
-      text: '插件应用',
+      text: '快速入门',
       collapsible: true,
       items: [
         {
-          text: '管理器',
+          text: '新手指引',
           items: [
-            { text: '简介', link: '/laravel/index.md' },
-            { text: '开发插件', link: '/laravel/create-plugin.md' },
-            { text: '发布插件', link: '/laravel/publish-plugin.md' },
-            { text: '安装插件', link: '/laravel/install-plugin.md' },
-            { text: '移除插件', link: '/laravel/remove-plugin.md' },
-          ]
-        },
-        {
-          text: '插件案例',
-          items: [
-            { text: 'DcatSaas', link: '/laravel/case/dcat-saas.md' },
-            { text: 'JWT 登录', link: 'https://github.com/mouyong/laravel-jwt-auth' },
-            { text: '本地存储', link: 'https://github.com/mouyong/laravel-local-storage' },
-            { text: '七牛云存储', link: 'https://github.com/mouyong/laravel-qiniu' },
+            { text: '目录结构', link: '' },
+            { text: '引用插件/安装插件', link: '' },
+            { text: '创建插件', link: '' },
+            { text: '发布插件', link: '' },
           ]
         },
       ]
     },
     {
-      text: '扩展包',
-      collapsible: true,
+      text: '插件案例',
       items: [
-        { text: '简介', link: '' },
-        { text: '开发流程', link: '' },
-        {
-          text: '案例',
-          items: [
-            { text: '全局配置', link: 'https://github.com/mouyong/laravel-config' },
-            { text: '文档生成工具', link: 'https://github.com/mouyong/laravel-doc' },
-          ]
-        },
+        { text: '全局配置', link: 'https://github.com/mouyong/laravel-config' },
+        { text: '文档生成工具', link: 'https://github.com/mouyong/laravel-doc' },
+        { text: 'DcatSaas', link: '/laravel/case/dcat-saas' },
+        { text: 'JWT 登录', link: 'https://github.com/mouyong/laravel-jwt-auth' },
+        { text: '本地存储', link: 'https://github.com/mouyong/laravel-local-storage' },
+        { text: '七牛云存储', link: 'https://github.com/mouyong/laravel-qiniu' },
       ]
     },
   ]

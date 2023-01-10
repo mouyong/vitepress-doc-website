@@ -1,1 +1,0 @@
-import{_ as t,o as e,c as a,a as d}from"./app.40e43c3f.js";const m=JSON.parse('{"title":"全局请求头","description":"","frontmatter":{},"headers":[],"relativePath":"api/header.md","lastUpdated":1673169476000}'),r={name:"api/header.md"},o=d("",2),n=[o];function c(_,s,h,i,p,l){return e(),a("div",null,n)}const u=t(r,[["render",c]]);export{m as __pageData,u as default};

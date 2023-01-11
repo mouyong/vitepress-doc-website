@@ -7,9 +7,9 @@ const { data } = useSponsor()
 <template>
   <VPHomeSponsors
     v-if="data"
-    message="Plugins World is free and open source, made possible by wonderful sponsors."
+    message="Document Site is free and open source, made possible by wonderful sponsors."
     action-text="Become a sponsor"
-    action-link="https://github.com/mouyong/vitepress-doc-website?donate=true"
+    action-link="https://gitee.com/github-mouyong/vitepress-doc-website?donate=true"
     :data="data"
   />
 </template>

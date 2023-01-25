@@ -110,7 +110,7 @@ export default defineConfig({
    */
   buildEnd: async ({ outDir }) => {
     const sitemap = new SitemapStream({
-      hostname: 'https://plugins-world.cn'
+      hostname: 'https://blog.iwnweb.com'
     })
     const writeStream = createWriteStream(resolve(outDir, 'sitemap.xml'))
     sitemap.pipe(writeStream)

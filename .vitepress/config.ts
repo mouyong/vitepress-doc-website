@@ -26,6 +26,8 @@ export default defineConfig({
     ['meta', { property: 'og:image', content: 'https://plugins-world.cn/logo.png' }],
 
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+
+    ['meta', { name: 'baidu-site-verification', content: 'codeva-zqU12S2IfE' }],
   ],
 
   markdown: {

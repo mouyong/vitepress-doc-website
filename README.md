@@ -23,6 +23,6 @@ yarn docs:build
 `nginx` 配置
 ```
 location /docs/ {
-  try_files $uri $uri/ $uri.html break;
+  try_files $uri $uri/ $uri.html;
 }
 ```

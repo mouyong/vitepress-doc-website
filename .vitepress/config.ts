@@ -20,7 +20,7 @@ export default defineConfig({
     ['script', { src: '//unpkg.com/alpinejs', defer: 'true' }],
 
     ['meta', { property: 'og:title', content: '文档站' }],
-    ['meta', { property: 'og:description', content: '文档站,VitePress 文档站,博客,知识图谱,知识网,知识体系,官方网站,静态站,hexo' }],
+    ['meta', { property: 'og:description', content: '帮助你快速创建项目的官方文档站点；快速搭建属于你的个人知识体系、博客；' }],
     ['meta', { property: 'og:image', content: './logo_square_en.png' }],
     ['meta', { property: 'og:image:alt', content: 'Logo' }],
     ['meta', { property: 'og:url', content: '/' }],

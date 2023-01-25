@@ -21,7 +21,7 @@ export default defineConfig({
 
     ['meta', { property: 'og:title', content: '插件世界' }],
     ['meta', { property: 'og:description', content: '让查找优秀的插件不再困难；快来创建属于你的前端插件、Laravel 插件、Webman 插件、微信小程序插件、PicGO 插件' }],
-    ['meta', { property: 'og:image', content: './logo_square_en.png' }],
+    ['meta', { property: 'og:image', content: '/logo_square_en.png' }],
     ['meta', { property: 'og:url', content: '/' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:site_name', content: '插件世界' }],
@@ -29,8 +29,9 @@ export default defineConfig({
     ['meta', { property: 'twitter:title', content: '插件世界' }],
     ['meta', { property: 'twitter:description', content: '让查找优秀的插件不再困难；快来创建属于你的前端插件、Laravel 插件、Webman 插件、微信小程序插件、PicGO 插件' }],
     ['meta', { property: 'twitter:card', content: 'summary_large_image' }],
-    ['meta', { property: 'twitter:image', content: './logo_square_en.png' }],
+    ['meta', { property: 'twitter:image', content: '/logo_square_en.png' }],
     ['meta', { property: 'twitter:url', content: '/' }],
+    ['meta', { property: 'twitter:site', content: '@MouBiYong' }],
   ],
 
   markdown: {

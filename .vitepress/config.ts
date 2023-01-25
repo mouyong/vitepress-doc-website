@@ -18,6 +18,18 @@ export default defineConfig({
     // ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['meta', { name: 'keywords', content: '文档站,VitePress 文档站,博客,知识图谱,知识网,知识体系,官方网站,静态站,hexo' }],
     ['script', { src: '//unpkg.com/alpinejs', defer: 'true' }],
+
+    ['meta', { property: 'og:title', content: '文档站' }],
+    ['meta', { property: 'og:description', content: '文档站,VitePress 文档站,博客,知识图谱,知识网,知识体系,官方网站,静态站,hexo' }],
+    ['meta', { property: 'og:image', content: './logo_square_en.png' }],
+    ['meta', { property: 'og:url', content: '/' }],
+    ['meta', { property: 'og:type', content: 'website' }],
+
+    ['meta', { property: 'twitter:title', content: '文档站' }],
+    ['meta', { property: 'twitter:description', content: '文档站,VitePress 文档站,博客,知识图谱,知识网,知识体系,官方网站,静态站,hexo' }],
+    ['meta', { property: 'twitter:card', content: 'summary_large_image' }],
+    ['meta', { property: 'twitter:image', content: './logo_square_en.png' }],
+    ['meta', { property: 'twitter:url', content: '/' }],
   ],
 
   markdown: {
@@ -110,7 +122,7 @@ export default defineConfig({
    */
   buildEnd: async ({ outDir }) => {
     const sitemap = new SitemapStream({
-      hostname: 'https://blog.iwnweb.com/vitepress-doc-website'
+      hostname: 'https://blog.iwnweb.com/vitepress-doc-website/'
     })
     const writeStream = createWriteStream(resolve(outDir, 'sitemap.xml'))
     sitemap.pipe(writeStream)

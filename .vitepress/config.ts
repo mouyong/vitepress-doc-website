@@ -20,7 +20,7 @@ export default defineConfig({
     ['script', { src: '//unpkg.com/alpinejs', defer: 'true' }],
 
     ['meta', { property: 'og:type', content: 'website' }],
-    ['meta', { property: 'og:url', content: '/' }],
+    ['meta', { property: 'og:url', content: 'https://plugins-world.cn/' }],
     ['meta', { property: 'og:title', content: '插件世界' }],
     ['meta', { property: 'og:description', content: '让查找优秀的插件不再困难；快来创建属于你的前端插件、Laravel 插件、Webman 插件、微信小程序插件、PicGO 插件' }],
     ['meta', { property: 'og:image', content: 'https://plugins-world.cn/logo_square_en.png' }],

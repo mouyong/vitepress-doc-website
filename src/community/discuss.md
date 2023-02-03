@@ -19,3 +19,8 @@
 问题跟进、PR 贡献
 
 - 前往[提问与讨论](https://github.com/mouyong/vitepress-doc-website/issues)
+
+
+## 社区论坛
+
+- 前往[论坛](https://discuss.plugins-world.cn)留言、讨论

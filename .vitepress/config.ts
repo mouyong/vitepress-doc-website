@@ -12,7 +12,7 @@ export default defineConfig({
   description: '帮助你快速创建项目的官方文档站点；快速搭建属于你的个人知识体系、博客；',
   ignoreDeadLinks: true,
   lastUpdated: true,
-  cleanUrls: 'without-subfolders', // 注释了，避免 nginx 静态站部署时，刷新页面会找不到网页
+  // cleanUrls: 'without-subfolders', // 注释了，避免 nginx 静态站部署时，刷新页面会找不到网页
 
   head: [
     // ['link', { rel: 'icon', href: '/favicon.ico' }],

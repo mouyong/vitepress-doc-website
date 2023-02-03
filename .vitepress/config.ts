@@ -109,12 +109,15 @@ export default defineConfig({
   // outDir: '../public/docs/', // relative of `vitepress-docs-website/` directory
 
   transformHtml: (_, id, { pageData }) => {
-    if (!/[\\/]404\.html$/.test(id))
+    if (!/[\\/]404\.html$/.test(id)) {
+      let url = pageData.relativePath.replace(/((^|\/)index)?\$/, '$2')
+      url = url.replace('.md', '.html')
       links.push({
         // you might need to change this if not using clean urls mode
-        url: pageData.relativePath.replace(/((^|\/)index)?\$/, '$2'),
+        url: url,
         lastmod: pageData.lastUpdated
       })
+    }
   },
 
   /**

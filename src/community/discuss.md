@@ -19,3 +19,7 @@
 问题跟进、PR 贡献
 
 - 前往[提问与讨论](https://gitee.com/github-mouyong/plugins-world/issues)
+
+## 社区论坛
+
+- 前往[论坛](https://discuss.plugins-world.cn)留言、讨论

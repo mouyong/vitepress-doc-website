@@ -155,6 +155,7 @@ export default defineConfig({
 function navbar() {
   return [
     { text: '首页', link: '/' },
+    { text: '社区', link: 'https://discuss.plugins-world.cn' },
     { text: '指南', link: '/guide/' },
     { text: '前端插件', link: '/frontend/' },
     { text: 'Laravel 插件', link: '/laravel/' },

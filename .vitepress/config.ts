@@ -158,9 +158,9 @@ function navbar() {
     { text: '指南', link: '/guide/' },
     { text: '前端插件', link: '/frontend/' },
     { text: 'Laravel 插件', link: '/laravel/' },
-    { text: 'Webman 插件', link: '/webman/' },
-    { text: 'PicGo 插件', link: '/picgo/' },
-    { text: '微信小程序插件', link: '/miniprogram/' },
+    // { text: 'Webman 插件', link: '/webman/' },
+    // { text: 'PicGo 插件', link: '/picgo/' },
+    // { text: '微信小程序插件', link: '/miniprogram/' },
     // { text: '数据字典', link: '/database/' },
     // { text: 'API 参考', link: '/api/' },
     {
@@ -216,9 +216,9 @@ function sidebarGuide() {
       items: [
         { text: '前端插件', link: '/frontend/' },
         { text: 'Laravel 插件', link: '/laravel/' },
-        { text: 'Webman 插件', link: '/webman/' },
-        { text: 'PicGO 插件', link: '/picgo/' },
-        { text: '微信小程序插件', link: '/miniprogram/' },
+        // { text: 'Webman 插件', link: '/webman/' },
+        // { text: 'PicGO 插件', link: '/picgo/' },
+        // { text: '微信小程序插件', link: '/miniprogram/' },
       ]
     },
   ]

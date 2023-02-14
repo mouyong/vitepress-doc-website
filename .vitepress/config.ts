@@ -174,7 +174,7 @@ function navbar() {
         { text: '常见问题', link: '/community/faq' },
         { text: '提交反馈', link: '/contributing/feedback' },
         { text: '互动交流', link: '/community/discuss' },
-        { text: '应用市场', link: 'https://market.plugins-world.hecs.iwnweb.com' },
+        { text: '应用市场', link: 'https://market.plugins-world.cn' },
       ],
       activeMatch: `^/(community|contributing)/`,
     },
@@ -395,7 +395,7 @@ function sidebarCommunity() {
       collapsible: true,
       items: [
         { text: '互动交流', link: '/community/discuss' },
-        { text: '应用市场', link: 'https://market.plugins-world.hecs.iwnweb.com' },
+        { text: '应用市场', link: 'https://market.plugins-world.cn' },
       ]
     },
   ]

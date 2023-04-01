@@ -153,8 +153,8 @@ function navbar() {
     { text: '首页', link: '/' },
     { text: '官网', link: '/home' },
     { text: '指南', link: '/guide/' },
-    { text: '数据字典', link: '/database/' },
     { text: 'API 参考', link: '/api/' },
+    { text: '数据字典', link: '/database/' },
     {
       text: '生态系统',
       items: [

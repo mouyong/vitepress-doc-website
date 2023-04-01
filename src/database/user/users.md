@@ -4,7 +4,7 @@
 | -------- | ---------- | --------------- | ----------------- | ---- | ---------------------------------- |
 | 主键ID   | id         | bigint unsigned |                   | NO   | 自动递赠                           |
 | 姓名     | name       | varchar(64)     |                   | NO   |                                    |
-| 性别     | gender     | varchar(64)     |                   | NO   | 未知-UNKNOWN 男性-MALE 女性-FEMALE |
+| 性别     | gender     | varchar(64)     |                   | NO   | 未知-UNKNOWN<br>男性-MALE<br>女性-FEMALE |
 | 手机号   | mobile     | varchar(32)     |                   | NO   | 手机号                             |
 | 通讯地址 | address    | varchar(64)     |                   | YES  | 包含省市区的详细地址               |
 | 经度     | longitude  | varchar(64)     |                   | YES  | 通过详细地址转换得到               |

@@ -240,6 +240,7 @@ function sidebarApi() {
       text: '接口数据模型',
       collapsible: true,
       items: [
+        { text: '目录', link: '/api/models/' },
         { text: '用户', link: '/api/models/user' },
       ]
     },

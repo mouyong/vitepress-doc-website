@@ -5,16 +5,16 @@
 
 ## Body 参数
 
-| 参数名 | 类型 | 默认值 | 是否必传 | 说明 |
-| --- | --- | --- | --- | --- |
-| name | String |  | YES | 用户姓名 |
-| gender | Number | 0 | YES | 用户性别 |
-| mobile | String |  | YES | 用户手机号 |
-| address | String |  | NO | 用户居住地址，完整的省市区及详细地址，如：广东省深圳市宝安区 xx 花园 |
-| highest_education | Number |  | NO | <a class="q">学历枚举值</a> |
-| nation | Number |  | NO | <a class="q">名族枚举值枚举值：omics-h5 中整理出来</a> |
-| birthday | String |  | NO | 用户生日，格式：2022-02-02 02:02:02 |
-| native_place | String |  | NO | 用户籍贯，身份证的所属地，如广东、北京 |
+| 参数名            | 类型    | 默认值 | 是否必传 | 说明                                                                 |
+| ----------------- | ------- | ------ | -------- | -------------------------------------------------------------------- |
+| name              | string  |        | required | 用户姓名                                                             |
+| gender            | integer | 0      | required | 用户性别                                                             |
+| mobile            | string  |        | required | 用户手机号                                                           |
+| address           | string  |        | nullable | 用户居住地址，完整的省市区及详细地址，如：广东省深圳市宝安区 xx 花园 |
+| highest_education | integer |        | nullable | <a class="q">学历枚举值</a>                                          |
+| nation            | integer |        | nullable | <a class="q">名族枚举值枚举值：omics-h5 中整理出来</a>               |
+| birthday          | string  |        | nullable | 用户生日，格式：2022-02-02 02:02:02                                  |
+| native_place      | string  |        | nullable | 用户籍贯，身份证的所属地，如广东、北京                               |
 
 
 ## 返回结果

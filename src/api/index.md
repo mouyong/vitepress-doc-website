@@ -2,7 +2,7 @@
 
 ::: tip 必读信息
 - [开发必读：基础资料](../guide/index)
-- [数据模型](./models/)
+- [通用数据结构](./models/)
 - [数据存储结构](../database/)
 - [数据字典](../database/dictionary/)
 :::

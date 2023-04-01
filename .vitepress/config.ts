@@ -151,12 +151,13 @@ export default defineConfig({
 function navbar() {
   return [
     { text: '首页', link: '/' },
-    { text: '官网', link: '/home' },
-    { text: '指南', link: '/guide/' },
-    { text: 'API 参考', link: '/api/' },
-    { text: '数据字典', link: '/database/' },
+    { text: '官网', link: '/home', activeMatch: `^/(home)/`, },
+    { text: '指南', link: '/guide/', activeMatch: `^/(guide)/`, },
+    { text: 'API 参考', link: '/api/', activeMatch: `^/(api)/`, },
+    { text: '数据字典', link: '/database/', activeMatch: `^/(database)/`, },
     {
       text: '生态系统',
+      activeMatch: `^/(community|contributing)/`,
       items: [
         { text: '团队', link: '/community/teams' },
         { text: '加入我们', link: '/community/join' },
@@ -167,7 +168,6 @@ function navbar() {
         { text: '互动交流', link: '/community/discuss' },
         { text: '应用市场', link: 'https://market.plugins-world.cn' },
       ],
-      activeMatch: `^/(community|contributing)/`,
     },
     {
       text: '项目资料',

@@ -1,1 +1,0 @@
-import{_ as s,o as a,c as n,N as l}from"./chunks/framework.849a41bc.js";const d=JSON.parse('{"title":"获取用户列表","description":"","frontmatter":{},"headers":[],"relativePath":"api/user/list.md","lastUpdated":1680321709000}'),o={name:"api/user/list.md"},p=l("",8),e=[p];function t(c,r,D,F,y,i){return a(),n("div",null,e)}const u=s(o,[["render",t]]);export{d as __pageData,u as default};

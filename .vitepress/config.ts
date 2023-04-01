@@ -232,9 +232,9 @@ function sidebarApi() {
       text: '用户',
       collapsible: true,
       items: [
-        { text: '新增用户', link: '/api/user/add' },
-        { text: '获取用户列表', link: '/api/user/list' },
-        { text: '删除用户', link: '/api/user/delete' },
+        { text: '新增用户', link: '/api/users/create_user' },
+        { text: '获取用户列表', link: '/api/users/get_user_list' },
+        { text: '删除用户', link: '/api/users/delete_user' },
       ]
     },
   ]

@@ -1,17 +1,17 @@
 ## 用户表 users
 
-| 字段注释 | 字段名     | 字段类型         | 默认值            | 可空 | 备注                                       |
-| -------- | ---------- | ---------------- | ----------------- | ---- | ------------------------------------------ |
-| 主键ID   | id         | bigint unsigned  |                   | NO   | 自动递赠                                   |
-| 姓名     | name       | varchar(64)      |                   | NO   |                                            |
-| 性别     | gender     | tinyint unsigned |                   | NO   | [性别][参考]<br>0 未知<br>1 男性<br>2 女性 |
-| 手机号   | mobile     | varchar(32)      |                   | NO   | 手机号                                     |
-| 通讯地址 | address    | varchar(64)      |                   | YES  | 包含省市区的详细地址                       |
-| 经度     | longitude  | varchar(64)      |                   | YES  | 通过详细地址转换得到                       |
-| 纬度     | latitude   | varchar(64)      |                   | YES  | 通过详细地址转换得到                       |
-| 创建时间 | created_at | timestamp        | CURRENT_TIMESTAMP | NO   |                                            |
-| 更新时间 | updated_at | timestamp        |                   | YES  |                                            |
-| 删除时间 | deleted_at | timestamp        |                   | YES  |                                            |
+| 字段注释 | 字段名     | 字段类型        | 默认值            | 可空 | 备注                               |
+| -------- | ---------- | --------------- | ----------------- | ---- | ---------------------------------- |
+| 主键ID   | id         | bigint unsigned |                   | NO   | 自动递赠                           |
+| 姓名     | name       | varchar(64)     |                   | NO   |                                    |
+| 性别     | gender     | varchar(64)     |                   | NO   | 未知-UNKNOWN 男性-MALE 女性-FEMALE |
+| 手机号   | mobile     | varchar(32)     |                   | NO   | 手机号                             |
+| 通讯地址 | address    | varchar(64)     |                   | YES  | 包含省市区的详细地址               |
+| 经度     | longitude  | varchar(64)     |                   | YES  | 通过详细地址转换得到               |
+| 纬度     | latitude   | varchar(64)     |                   | YES  | 通过详细地址转换得到               |
+| 创建时间 | created_at | timestamp       | CURRENT_TIMESTAMP | NO   |                                    |
+| 更新时间 | updated_at | timestamp       |                   | YES  |                                    |
+| 删除时间 | deleted_at | timestamp       |                   | YES  |                                    |
 
 ## 开发说明
 

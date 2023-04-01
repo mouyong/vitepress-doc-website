@@ -225,6 +225,7 @@ function sidebarApi() {
         { text: '全局请求头', link: '/api/header' },
         { text: '全局请求参数', link: '/api/request' },
         { text: '全局接口响应', link: '/api/response' },
+        { text: '通用数据结构', link: '/api/models/' },
       ]
     },
     {
@@ -234,14 +235,6 @@ function sidebarApi() {
         { text: '新增用户', link: '/api/user/add' },
         { text: '获取用户列表', link: '/api/user/list' },
         { text: '删除用户', link: '/api/user/delete' },
-      ]
-    },
-    {
-      text: '接口数据模型',
-      collapsible: true,
-      items: [
-        { text: '目录', link: '/api/models/' },
-        { text: '用户', link: '/api/models/user' },
       ]
     },
   ]

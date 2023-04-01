@@ -1,1 +1,0 @@
-import{_ as s,o as a,c as n,N as o}from"./chunks/framework.849a41bc.js";const i=JSON.parse('{"title":"全局接口响应","description":"","frontmatter":{},"headers":[],"relativePath":"api/response.md","lastUpdated":1680314893000}'),l={name:"api/response.md"},p=o("",2),t=[p];function e(c,r,D,F,y,C){return a(),n("div",null,t)}const u=s(l,[["render",e]]);export{i as __pageData,u as default};

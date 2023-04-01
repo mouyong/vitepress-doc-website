@@ -1,1 +1,0 @@
-import{_ as t,o as e,c as a,N as r}from"./chunks/framework.849a41bc.js";const m=JSON.parse('{"title":"全局请求参数","description":"","frontmatter":{},"headers":[],"relativePath":"api/request.md","lastUpdated":1680323225000}'),d={name:"api/request.md"},o=r("",3),s=[o];function _(h,n,c,i,l,u){return e(),a("div",null,s)}const b=t(d,[["render",_]]);export{m as __pageData,b as default};

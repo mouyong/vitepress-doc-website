@@ -247,7 +247,7 @@ function sidebarDatabase() {
       collapsible: true,
       items: [
         { text: '目录', link: '/database/' },
-        { text: '用户', link: '/database/user/users' },
+        { text: '用户', link: '/database/users/users' },
       ]
     },
     {

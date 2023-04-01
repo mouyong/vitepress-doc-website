@@ -254,7 +254,7 @@ function sidebarDatabase() {
       text: '字典数据',
       collapsible: true,
       items: [
-        { text: '民族', link: '/database/dictionary/nation' },
+        { text: '民族', link: '/database/dictionary/ethnicity' },
       ]
     },
   ]

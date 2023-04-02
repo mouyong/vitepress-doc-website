@@ -35,7 +35,7 @@ export default defineConfig({
 
   themeConfig: {
     // example: logo: '/logo_square_en.png',
-    // example: logo: false,
+    // example: logo: undefined,
     logo: './logo_square_en.png',
     siteTitle: undefined,
     outlineTitle: '页面梗概',

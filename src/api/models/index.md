@@ -10,7 +10,7 @@
     "user_gender": "string/ 性别 / users.gender",
     "user_gender_desc": "string/ 性别文字描述，如：男, 具体描述值见 users.gender / users.gender",
     "posts": { // 这个是示例信息，自行删除
-        // 通用数据结构->文章
+        // 通用数据结构 > 文章
     },
 }
 ```

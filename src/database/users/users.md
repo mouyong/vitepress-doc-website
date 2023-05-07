@@ -2,7 +2,7 @@
 
 | 字段注释 | 字段名     | 字段类型        | 默认值            | 可空     | 备注                                     |
 | -------- | ---------- | --------------- | ----------------- | -------- | ---------------------------------------- |
-| 主键ID   | id         | bigint unsigned |                   | not null | 自动递赠                                 |
+| 主键ID   | id         | bigint unsigned |                   | not null |                                          |
 | 姓名     | name       | varchar(64)     |                   | not null |                                          |
 | 性别     | gender     | varchar(64)     |                   | not null | 未知-UNKNOWN<br>男性-MALE<br>女性-FEMALE |
 | 手机号   | mobile     | varchar(32)     |                   | not null | 手机号                                   |

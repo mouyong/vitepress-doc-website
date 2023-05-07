@@ -247,6 +247,12 @@ function sidebarDatabase() {
       collapsible: true,
       items: [
         { text: '目录', link: '/database/' },
+      ]
+    },
+    {
+      text: '模型',
+      collapsible: true,
+      items: [
         { text: '用户', link: '/database/users/users' },
       ]
     },

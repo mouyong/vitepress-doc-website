@@ -31,13 +31,13 @@ export default defineConfig({
   ],
 
   markdown: {
-    theme: 'material-palenight',
+    theme: 'material-theme-palenight',
     lineNumbers: false,
   },
 
   themeConfig: {
     // example: logo: '/logo_square_en.png',
-    // example: logo: false,
+    // example: logo: undefined,
     logo: './logo_square_en.png',
     siteTitle: undefined,
     outlineTitle: '页面梗概',
@@ -166,6 +166,7 @@ function navbar() {
     // { text: 'API 参考', link: '/api/' },
     {
       text: '生态系统',
+      activeMatch: `^/(community|contributing)/`,
       items: [
         { text: '团队', link: '/community/teams' },
         { text: '加入我们', link: '/community/join' },
@@ -176,7 +177,6 @@ function navbar() {
         { text: '互动交流', link: '/community/discuss' },
         { text: '应用市场', link: 'https://market.plugins-world.cn' },
       ],
-      activeMatch: `^/(community|contributing)/`,
     },
     // {
     //   text: '项目资料',
@@ -329,22 +329,16 @@ function sidebarApi() {
         { text: '全局请求头', link: '/api/header' },
         { text: '全局请求参数', link: '/api/request' },
         { text: '全局接口响应', link: '/api/response' },
+        { text: '通用数据结构', link: '/api/models/' },
       ]
     },
     {
       text: '用户',
       collapsible: true,
       items: [
-        { text: '新增用户', link: '/api/user/add' },
-        { text: '获取用户列表', link: '/api/user/list' },
-        { text: '删除用户', link: '/api/user/delete' },
-      ]
-    },
-    {
-      text: '接口数据模型',
-      collapsible: true,
-      items: [
-        { text: '用户', link: '/api/models/user' },
+        { text: '新增用户', link: '/api/users/create_user' },
+        { text: '获取用户列表', link: '/api/users/get_user_list' },
+        { text: '删除用户', link: '/api/users/delete_user' },
       ]
     },
   ]
@@ -357,14 +351,21 @@ function sidebarDatabase() {
       collapsible: true,
       items: [
         { text: '目录', link: '/database/' },
-        { text: '用户', link: '/database/user/users' },
+      ]
+    },
+    {
+      text: '模型',
+      collapsible: true,
+      items: [
+        { text: '用户', link: '/database/users/users' },
       ]
     },
     {
       text: '字典数据',
       collapsible: true,
       items: [
-        { text: '民族', link: '/database/dictionary/nation' },
+        { text: '目录', link: '/database/dictionary/' },
+        { text: '民族', link: '/database/dictionary/ethnicity' },
       ]
     },
   ]
